@@ -5,15 +5,193 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F0BCBC"
     tools:context=".MainActivity">
 
+    <!-- LOGO -->
+
     <TextView
+        android:id="@+id/textView5"
+        android:layout_width="117dp"
+        android:layout_height="19dp"
+        android:text="─────────➤ "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/BtnCascara"
+        app:layout_constraintHorizontal_bias="0.787"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <TextView
+        android:id="@+id/logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:text="LOGO"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Menú -->
+    <TextView
+        android:id="@+id/menuInicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="Inicio"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/menuSimulador"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/menuSimulador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="Simulador"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/menuAprender"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/menuAprender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aprender"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Título Infografía -->
+
+    <!-- Imagen Infografía -->
+
+    <!-- Título Simulador -->
+
+    <TextView
+        android:id="@+id/tituloInfografia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="Infografía Interactiva del Huevo"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+    <ImageView
+        android:id="@+id/imagenInfografia"
+        android:layout_width="163dp"
+        android:layout_height="162dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="Infografía"
+        android:scaleType="fitCenter"
+        android:src="@drawable/estructurahuevo__2_"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tituloInfografia" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="122dp"
+        android:layout_height="24dp"
+        android:text="──────────➤ "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.366"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.205" />
+
+    <!-- Imagen Simulador -->
+
+    <!-- Título Aprende -->
+
+    <TextView
+        android:id="@+id/tituloSimulador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:text="Simulador de Frescura"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imagenInfografia" />
+
+    <ImageView
+        android:id="@+id/imagenSimulador"
+        android:layout_width="180dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="Simulador"
+        android:scaleType="fitCenter"
+        android:src="@drawable/imagen_2025_05_30_001240253_removebg_preview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tituloSimulador" />
+
+    <TextView
+        android:id="@+id/tituloAprender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Aprende sobre los Huevos"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imagenSimulador" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="145dp"
+        android:layout_height="18dp"
+        android:text="────────────➤ "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/BtnYema"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.249" />
+
+    <Button
+        android:id="@+id/BtnCascara"
+        android:layout_width="109dp"
+        android:layout_height="36dp"
+        android:text="Cascara"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.754"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.141" />
+
+    <Button
+        android:id="@+id/BtnClara"
+        android:layout_width="115dp"
+        android:layout_height="36dp"
+        android:text="Clara"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.192" />
+
+    <Button
+        android:id="@+id/BtnYema"
+        android:layout_width="113dp"
+        android:layout_height="36dp"
+        android:text="Yema"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.744"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.243" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
