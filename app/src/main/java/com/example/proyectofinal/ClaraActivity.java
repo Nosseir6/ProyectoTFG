@@ -29,7 +29,7 @@ public class ClaraActivity extends AppCompatActivity {
         volver.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ClaraActivity.this, MainActivity.class);
+                Intent intent = new Intent(ClaraActivity.this, HuevoActivity.class);
                 startActivity(intent);
             }
         });

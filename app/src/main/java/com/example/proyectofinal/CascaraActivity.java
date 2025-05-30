@@ -30,7 +30,7 @@ Button Btnvolver;
         Btnvolver.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(CascaraActivity.this, MainActivity.class);
+                Intent intent = new Intent(CascaraActivity.this, HuevoActivity.class);
                 startActivity(intent);
             }
         });

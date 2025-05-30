@@ -11,7 +11,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class MainActivity extends AppCompatActivity {
+public class HuevoActivity extends AppCompatActivity {
 
     Button botonCascara;
     Button botonClara;
@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_huevo);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         botonCascara.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, CascaraActivity.class);
+                Intent intent = new Intent(HuevoActivity.this, CascaraActivity.class);
                 startActivity(intent);
             }
         });
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         botonClara.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, ClaraActivity.class);
+                Intent intent = new Intent(HuevoActivity.this, ClaraActivity.class);
                 startActivity(intent);
             }
         });
@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         botonYema.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, YemaActivity.class);
+                Intent intent = new Intent(HuevoActivity.this, YemaActivity.class);
                 startActivity(intent);
             }
         });

@@ -29,7 +29,7 @@ public class YemaActivity extends AppCompatActivity {
         volver.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(YemaActivity.this, MainActivity.class);
+                Intent intent = new Intent(YemaActivity.this, HuevoActivity.class);
                 startActivity(intent);
             }
         });
