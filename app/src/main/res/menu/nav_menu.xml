@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_comparador" android:title="Comparador de Leches" />
+    <item android:id="@+id/nav_aplicaciones" android:title="Aplicaciones Dietéticas" />
+    <item android:id="@+id/nav_mapa" android:title="Mapa Interactivo" />
+    <item android:id="@+id/nav_curiosidades" android:title="Curiosidades" />
+    <item android:id="@+id/nav_recetas" android:title="Recetas Interactivas" />
+</menu>
