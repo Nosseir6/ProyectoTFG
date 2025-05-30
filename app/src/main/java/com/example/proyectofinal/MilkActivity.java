@@ -41,7 +41,7 @@ public class MilkActivity extends AppCompatActivity {
 
         // Activar ícono del menú hamburguesa
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setHomeAsUpIndicator(R.drawable.iconoHuevo); // Asegúrate de tener este icono
+        getSupportActionBar().setHomeAsUpIndicator(R.drawable.iconohuevo); // Asegúrate de tener este icono
 
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
