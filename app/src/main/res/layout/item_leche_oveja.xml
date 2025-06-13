@@ -1,0 +1,32 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="12dp"
+    android:backgroundTint="#FFF3E0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🐑 Leche de Oveja"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#F57C00" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Grasa: Alta\n• Proteínas: Muy alta\n• Lactosa: Media\n• Densidad: 1.039\n• Digestibilidad: Rica en sabor"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:paddingTop="8dp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

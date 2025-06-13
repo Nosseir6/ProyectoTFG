@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Tarjeta de bienvenida -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp"
+            android:backgroundTint="#E3F2FD">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Descubre los secretos de los alimentos con nuestra app interactiva."
+                android:textSize="18sp"
+                android:padding="16dp"
+                android:textColor="#212121" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Tarjeta de contenido -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="12dp"
+            android:backgroundTint="#FFF9C4">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="La leche es un alimento esencial, rico en nutrientes.\n\nCon esta aplicación aprenderás cómo se analiza y por qué es tan importante en nuestra alimentación."
+                android:textSize="18sp"
+                android:textColor="#333333" />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

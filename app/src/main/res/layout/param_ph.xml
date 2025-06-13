@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="12dp"
+    android:backgroundTint="#E8F5E9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. pH"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:text="• Fresca: pH 6.6–6.8 ✅\n• &lt;6.5: leche fermentada ❌\n• &gt;7.0: leche contaminada ❌"
+            android:textSize="16sp"
+            android:textColor="#444444" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:text="👉 ¿Qué pasa si sube o baja el pH?\nLa leche se vuelve turbia o burbujeante."
+            android:textSize="15sp"
+            android:textColor="#666666" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

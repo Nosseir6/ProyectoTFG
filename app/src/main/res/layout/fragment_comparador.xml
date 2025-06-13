@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollViewComparador"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Título -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Comparador de Leches"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#00897B"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
+
+        <!-- Tarjetas comparativas por tipo de leche -->
+        <include layout="@layout/item_leche_vaca" />
+        <include layout="@layout/item_leche_cabra" />
+        <include layout="@layout/item_leche_oveja" />
+        <include layout="@layout/item_leche_bufala" />
+        <include layout="@layout/item_leche_humana" />
+
+    </LinearLayout>
+</ScrollView>

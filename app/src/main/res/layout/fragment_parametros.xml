@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollViewParametros"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Título general -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Parámetros Físico-Químicos de la Leche"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#388E3C"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
+
+        <!-- 1. Acidez -->
+        <include layout="@layout/param_acidez"/>
+
+        <!-- 2. pH -->
+        <include layout="@layout/param_ph"/>
+
+        <!-- 3. Densidad específica -->
+        <include layout="@layout/param_densidad"/>
+
+        <!-- 4. Punto de congelación -->
+        <include layout="@layout/param_congelacion"/>
+
+        <!-- 5. Punto de ebullición -->
+        <include layout="@layout/param_ebullicion"/>
+
+        <!-- 6. Microorganismos -->
+        <include layout="@layout/param_microorganismos"/>
+
+    </LinearLayout>
+</ScrollView>

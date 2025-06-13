@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/scrollViewSimulador"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Título -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simulador Interactivo"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#1E88E5"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
+
+        <!-- Instrucciones -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ajusta los parámetros y observa cómo cambia la leche:"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:textColor="#333333"
+            android:paddingBottom="12dp" />
+
+        <!-- Parámetros simulados -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="12dp"
+            android:backgroundTint="#E3F2FD">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🔧 Parámetros Ajustables"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#1976D2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\n• pH\n• Acidez\n• Densidad\n• Temperatura"
+                    android:textSize="16sp"
+                    android:textColor="#444444" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Resultado visual simulado -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="12dp"
+            android:backgroundTint="#FFF9C4">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🧪 Resultado Visual"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#F57F17" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\nLa leche cambia de color, textura o aparecen bacterias animadas (representado de forma visual aquí)."
+                    android:textSize="16sp"
+                    android:textColor="#444444" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Mensajes de ejemplo -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="12dp"
+            android:backgroundTint="#C8E6C9">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="✅ ¡Perfecto! Esta leche es fresca y saludable."
+                    android:textSize="16sp"
+                    android:textColor="#2E7D32" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="⚠️ ¡Cuidado! La acidez es muy alta, podría estar fermentada."
+                    android:textSize="16sp"
+                    android:textColor="#C62828" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
