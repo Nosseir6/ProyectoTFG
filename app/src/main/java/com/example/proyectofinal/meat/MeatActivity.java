@@ -44,7 +44,7 @@ public class MeatActivity extends AppCompatActivity{
                     selectedFragment = new IntroductionFragment();
                     break;
                 case R.id.nav_composicion:
-                    selectedFragment = new CompositionFragment();
+                    selectedFragment = new ComposicionBasicaFragment();
                     break;
                 case R.id.nav_ph_higiene:
                     selectedFragment = new HealthFragment();

@@ -6,5 +6,6 @@
     <item android:id="@+id/nav_clasificacion" android:title="Clasificación de carnes" />
     <item android:id="@+id/nav_contaminantes" android:title="Contaminantes comunes" />
     <item android:id="@+id/nav_consejos" android:title="Consejos al consumidor" />
+
 </menu>
 

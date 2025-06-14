@@ -8,12 +8,13 @@ import android.view.ViewGroup;
 import androidx.fragment.app.Fragment;
 import com.example.proyectofinal.R;
 
-public class CompositionFragment extends Fragment {
-    public CompositionFragment() {}
+public class ConsejosConsumidorFragment extends Fragment {
+
+    public ConsejosConsumidorFragment() {}
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_composicion, container, false);
+        return inflater.inflate(R.layout.fragment_consejos_consumidor, container, false);
     }
 }

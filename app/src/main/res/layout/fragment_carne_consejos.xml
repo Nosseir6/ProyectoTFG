@@ -1,0 +1,129 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Consejos para el consumidor"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#33691E"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Color -->
+        <TextView
+            android:text="👁️ Color"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#33691E"
+            android:layout_marginBottom="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="El color de la carne debe ser homogéneo. Evita carnes grisáceas, verdosas o con zonas oscuras."
+            android:textSize="16sp"
+            android:textColor="#444444"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Olor -->
+        <TextView
+            android:text="👃 Olor"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#33691E"
+            android:layout_marginBottom="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Un olor fuerte, ácido o desagradable indica deterioro. La carne fresca tiene un olor suave y neutro."
+            android:textSize="16sp"
+            android:textColor="#444444"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Textura -->
+        <TextView
+            android:text="🤲 Textura"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#33691E"
+            android:layout_marginBottom="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Debe ser firme al tacto y no demasiado húmeda. Si está pegajosa o blanda, puede estar en mal estado."
+            android:textSize="16sp"
+            android:textColor="#444444"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Etiquetado -->
+        <TextView
+            android:text="🏷️ Etiquetado"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#33691E"
+            android:layout_marginBottom="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Revisa la fecha de caducidad, el número de lote y el tipo de carne (origen, animal, canal, etc.)."
+            android:textSize="16sp"
+            android:textColor="#444444"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Conservación -->
+        <TextView
+            android:text="❄️ Conservación"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#33691E"
+            android:layout_marginBottom="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Mantén la carne refrigerada (0–4 °C) o congelada (-18 °C). No la expongas al sol ni la dejes sin refrigeración."
+            android:textSize="16sp"
+            android:textColor="#444444"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Compra segura -->
+        <TextView
+            android:text="🛒 Compra segura"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#33691E"
+            android:layout_marginBottom="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Compra carne en comercios autorizados, con controles sanitarios y buena rotación del producto."
+            android:textSize="16sp"
+            android:textColor="#444444"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

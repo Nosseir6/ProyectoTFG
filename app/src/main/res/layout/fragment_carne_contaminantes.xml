@@ -1,7 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background="#F5F5F5"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
 
     <LinearLayout
         android:orientation="vertical"
@@ -9,83 +13,108 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:text="Contaminantes comunes en la carne"
+            android:text="Contaminantes Comunes en la Carne"
             android:textSize="22sp"
             android:textStyle="bold"
-            android:textColor="#880E4F"
+            android:textColor="#B71C1C"
             android:layout_marginBottom="16dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <!-- Metales pesados -->
-        <TextView
-            android:text="🧪 Metales pesados (Plomo, Mercurio, Cadmio)"
-            android:textStyle="bold"
-            android:textSize="18sp"
-            android:textColor="#C62828"
-            android:layout_marginBottom="8dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-        <TextView
-            android:text="Pueden acumularse en órganos y tejidos. Su consumo prolongado afecta el sistema nervioso, renal y óseo. Se detectan mediante análisis espectrofotométricos."
-            android:textSize="16sp"
+        <!-- Card: Metales pesados -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:textColor="#444444"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="☣️ Metales Pesados (Pb, Hg, Cd)"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#37474F"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="• Riesgos: neurotóxicos, acumulativos\n• Límite legal: ≤ 0.1 mg/kg\n• Origen: agua contaminada, piensos"
+                    android:textSize="16sp"
+                    android:textColor="#555"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Card: Residuos de antibióticos -->
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <!-- Antibióticos -->
-        <TextView
-            android:text="💊 Residuos de antibióticos"
-            android:textStyle="bold"
-            android:textSize="18sp"
-            android:textColor="#283593"
-            android:layout_marginBottom="8dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-
-        <TextView
-            android:text="Presentes si el animal fue tratado poco antes del sacrificio. Pueden causar resistencias bacterianas en humanos. La normativa exige periodos de retirada obligatorios."
-            android:textSize="16sp"
+            android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:textColor="#444444"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="💊 Antibióticos"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#37474F"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="• Riesgos: resistencia bacteriana\n• Límite: depende del compuesto (máx. permitido por UE)\n• Origen: tratamientos veterinarios"
+                    android:textSize="16sp"
+                    android:textColor="#555"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Card: PCBs y Dioxinas -->
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp">
 
-        <!-- PCBs y pesticidas -->
-        <TextView
-            android:text="☣️ PCBs y pesticidas"
-            android:textStyle="bold"
-            android:textSize="18sp"
-            android:textColor="#F9A825"
-            android:layout_marginBottom="8dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-        <TextView
-            android:text="Contaminantes ambientales lipofílicos que se acumulan en la grasa. Prohibidos o regulados en la UE. Pueden causar efectos endocrinos y carcinógenos."
-            android:textSize="16sp"
-            android:textColor="#444444"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+                <TextView
+                    android:text="🔥 PCBs y Dioxinas"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#37474F"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
 
-        <!-- Límites legales -->
-        <TextView
-            android:text="\n⚖️ Límites legales y controles"
-            android:textStyle="bold"
-            android:textSize="18sp"
-            android:textColor="#4E342E"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-
-        <TextView
-            android:text="El Reglamento CE 1881/2006 y normas posteriores establecen los límites máximos de estos contaminantes. Los laboratorios oficiales controlan mediante análisis periódicos."
-            android:textSize="16sp"
-            android:textColor="#444444"
-            android:layout_marginTop="8dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+                <TextView
+                    android:text="• Riesgos: cancerígenos, disruptores hormonales\n• Límite legal: muy bajo (en ng/kg)\n• Origen: contaminación industrial"
+                    android:textSize="16sp"
+                    android:textColor="#555"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
 
     </LinearLayout>
 </ScrollView>

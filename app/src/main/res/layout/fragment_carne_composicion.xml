@@ -1,7 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
+    android:background="#FAFAFA"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     >
 
@@ -11,124 +13,101 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:text="Clasificación de la carne según calidad"
+            android:text="Composición Nutricional por Tipo de Carne"
             android:textSize="22sp"
             android:textStyle="bold"
-            android:textColor="#4E342E"
+            android:textColor="#B71C1C"
             android:layout_marginBottom="16dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-        <!-- Carne normal -->
+        <!-- 🐄 Ternera -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
             app:cardCornerRadius="12dp"
-            app:cardElevation="4dp">
+            app:cardElevation="6dp"
+            android:layout_marginBottom="16dp">
 
             <LinearLayout
                 android:orientation="vertical"
-                android:padding="12dp"
+                android:padding="16dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <TextView
-                    android:text="✅ Carne Normal"
+                    android:text="🐄 Ternera"
                     android:textSize="18sp"
                     android:textStyle="bold"
-                    android:textColor="#2E7D32"
+                    android:textColor="#4E342E"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <ImageView
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/pieChartTernera"
                     android:layout_width="match_parent"
-                    android:layout_height="180dp"
-                    android:src="@drawable/carne_normal"
-                    android:scaleType="centerInside"
-                    android:layout_marginVertical="8dp" />
-
-                <TextView
-                    android:text="Color rojizo, textura firme y jugosa, pH entre 5.5 y 6.0. Ideal para consumo."
-                    android:textSize="16sp"
-                    android:textColor="#444444"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="250dp"
+                    android:layout_marginTop="12dp" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <!-- Carne PSE -->
+        <!-- 🐖 Cerdo -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
             app:cardCornerRadius="12dp"
-            app:cardElevation="4dp">
+            app:cardElevation="6dp"
+            android:layout_marginBottom="16dp">
 
             <LinearLayout
                 android:orientation="vertical"
-                android:padding="12dp"
+                android:padding="16dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <TextView
-                    android:text="⚠️ Carne PSE"
+                    android:text="🐖 Cerdo"
                     android:textSize="18sp"
                     android:textStyle="bold"
-                    android:textColor="#C62828"
+                    android:textColor="#4E342E"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <ImageView
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/pieChartCerdo"
                     android:layout_width="match_parent"
-                    android:layout_height="180dp"
-                    android:src="@drawable/carne_pse"
-                    android:scaleType="centerInside"
-                    android:layout_marginVertical="8dp" />
-
-                <TextView
-                    android:text="Pálida, blanda y con exceso de líquido. pH &lt; 5.4. Provocada por estrés pre-mortem."
-                    android:textSize="16sp"
-                    android:textColor="#444444"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="250dp"
+                    android:layout_marginTop="12dp" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <!-- Carne DFD -->
+        <!-- 🐔 Pollo -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:cardCornerRadius="12dp"
-            app:cardElevation="4dp">
+            app:cardElevation="6dp"
+            android:layout_marginBottom="16dp">
 
             <LinearLayout
                 android:orientation="vertical"
-                android:padding="12dp"
+                android:padding="16dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <TextView
-                    android:text="⚠️ Carne DFD"
+                    android:text="🐔 Pollo"
                     android:textSize="18sp"
                     android:textStyle="bold"
-                    android:textColor="#EF6C00"
+                    android:textColor="#4E342E"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <ImageView
+                <com.github.mikephil.charting.charts.PieChart
+                    android:id="@+id/pieChartPollo"
                     android:layout_width="match_parent"
-                    android:layout_height="180dp"
-                    android:src="@drawable/carne_dfd"
-                    android:scaleType="centerInside"
-                    android:layout_marginVertical="8dp" />
-
-                <TextView
-                    android:text="Oscura, firme y seca. pH &gt; 6.0. Menor vida útil y peor apariencia comercial."
-                    android:textSize="16sp"
-                    android:textColor="#444444"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="250dp"
+                    android:layout_marginTop="12dp" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
