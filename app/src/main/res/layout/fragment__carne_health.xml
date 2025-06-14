@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="pH y frescura de la carne"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#B71C1C"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="El pH de la carne permite conocer su estado de frescura. Valores normales van de 5.4 a 6.0. Un pH bajo puede indicar carne PSE (blanda y pálida), y uno alto carne DFD (oscura y seca)."
+            android:textSize="16sp"
+            android:textColor="#444444"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Texto del valor de pH -->
+        <TextView
+            android:id="@+id/phValueText"
+            android:text="pH: 6.2"
+            android:textSize="18sp"
+            android:textColor="#1976D2"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Barra -->
+        <SeekBar
+            android:id="@+id/seekBarPh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="20" />
+
+        <!-- Imagen de estado -->
+        <ImageView
+            android:id="@+id/carneImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/carne_normal" />
+
+        <!-- Texto de estado -->
+        <TextView
+            android:id="@+id/estadoText"
+            android:text="Estado actual de la carne"
+            android:textSize="16sp"
+            android:textColor="#444444"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

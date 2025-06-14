@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-
     android:id="@+id/scrollViewSimulador"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -34,7 +33,7 @@
             android:textColor="#333333"
             android:paddingBottom="12dp" />
 
-        <!-- Parámetros simulados -->
+        <!-- CARDVIEW DE PARÁMETROS -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -49,85 +48,139 @@
                 android:orientation="vertical"
                 android:padding="16dp">
 
+                <!-- BLOQUE PARA pH -->
                 <TextView
+                    android:id="@+id/phText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="🔧 Parámetros Ajustables"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
+                    android:text="pH: 7"
+                    android:textSize="16sp"
                     android:textColor="#1976D2" />
 
+                <SeekBar
+                    android:id="@+id/phSeekBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="14"
+                    android:progress="7" />
+
+                <ImageView
+                    android:id="@+id/phImageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="8dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/leche_normal" />
+
                 <TextView
+                    android:id="@+id/phMensaje"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="pH ideal"
+                    android:textSize="16sp"
+                    android:textColor="#444444"
+                    android:layout_marginBottom="24dp" />
+
+                <!-- BLOQUE PARA Acidez -->
+                <TextView
+                    android:id="@+id/acidezText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="\n• pH\n• Acidez\n• Densidad\n• Temperatura"
+                    android:text="Acidez: 7ºD"
                     android:textSize="16sp"
-                    android:textColor="#444444" />
+                    android:textColor="#1976D2" />
+
+                <SeekBar
+                    android:id="@+id/acidezSeekBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="20"
+                    android:progress="14" />
+
+                <ImageView
+                    android:id="@+id/acidezImageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="8dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/leche_normal" />
+
+                <TextView
+                    android:id="@+id/acidezMensaje"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Acidez normal"
+                    android:textSize="16sp"
+                    android:textColor="#444444"
+                    android:layout_marginBottom="24dp" />
+
+                <!-- BLOQUE PARA Temperatura -->
+                <TextView
+                    android:id="@+id/tempText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Temperatura: 20°C"
+                    android:textSize="16sp"
+                    android:textColor="#1976D2" />
+
+                <SeekBar
+                    android:id="@+id/tempSeekBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="100"
+                    android:progress="20" />
+
+                <ImageView
+                    android:id="@+id/tempImageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="8dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/leche_normal" />
+
+                <TextView
+                    android:id="@+id/tempMensaje"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Temperatura ambiente"
+                    android:textSize="16sp"
+                    android:textColor="#444444"
+                    android:layout_marginBottom="24dp" />
+
+                <!-- BLOQUE PARA Densidad -->
+                <TextView
+                    android:id="@+id/densidadText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Densidad: 1.03 g/cm³"
+                    android:textSize="16sp"
+                    android:textColor="#1976D2" />
+
+                <SeekBar
+                    android:id="@+id/densidadSeekBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="20"
+                    android:progress="10" />
+
+                <ImageView
+                    android:id="@+id/densidadImageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="8dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/leche_normal" />
+
+                <TextView
+                    android:id="@+id/densidadMensaje"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Densidad ideal"
+                    android:textSize="16sp"
+                    android:textColor="#444444"
+                    android:layout_marginBottom="16dp" />
+
             </LinearLayout>
         </androidx.cardview.widget.CardView>
-
-        <!-- Resultado visual simulado -->
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:cardElevation="5dp"
-            app:cardCornerRadius="12dp"
-            android:backgroundTint="#FFF9C4">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="16dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="🧪 Resultado Visual"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:textColor="#F57F17" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="\nLa leche cambia de color, textura o aparecen bacterias animadas (representado de forma visual aquí)."
-                    android:textSize="16sp"
-                    android:textColor="#444444" />
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
-        <!-- Mensajes de ejemplo -->
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            app:cardElevation="5dp"
-            app:cardCornerRadius="12dp"
-            android:backgroundTint="#C8E6C9">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="16dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="✅ ¡Perfecto! Esta leche es fresca y saludable."
-                    android:textSize="16sp"
-                    android:textColor="#2E7D32" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingTop="8dp"
-                    android:text="⚠️ ¡Cuidado! La acidez es muy alta, podría estar fermentada."
-                    android:textSize="16sp"
-                    android:textColor="#C62828" />
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
-
     </LinearLayout>
 </ScrollView>

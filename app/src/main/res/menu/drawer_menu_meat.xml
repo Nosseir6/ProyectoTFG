@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_composicion" android:title="Composición básica" />
+    <item android:id="@+id/nav_ph_frescura" android:title="pH y frescura" />
+    <item android:id="@+id/nav_conductividad" android:title="Conductividad y calidad" />
+    <item android:id="@+id/nav_clasificacion" android:title="Clasificación de carnes" />
+    <item android:id="@+id/nav_contaminantes" android:title="Contaminantes comunes" />
+    <item android:id="@+id/nav_consejos" android:title="Consejos al consumidor" />
+</menu>
+
