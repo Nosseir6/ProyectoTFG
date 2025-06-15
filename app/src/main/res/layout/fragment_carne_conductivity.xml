@@ -10,7 +10,7 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:text="Conductividad eléctrica y calidad"
+            android:text="@string/conductividad_carne"
             android:textSize="22sp"
             android:textStyle="bold"
             android:textColor="#4A148C"
@@ -19,7 +19,7 @@
             android:layout_height="wrap_content" />
 
         <TextView
-            android:text="La conductividad eléctrica de la carne se mide en mS/cm y refleja su contenido en agua y sales. Valores normales rondan 1.5 mS/cm. Un valor muy bajo puede indicar deshidratación. Uno alto puede indicar carne en mal estado o contaminada."
+            android:text="@string/conductividad_description"
             android:textSize="16sp"
             android:textColor="#444444"
             android:layout_marginBottom="16dp"
@@ -28,7 +28,7 @@
 
         <TextView
             android:id="@+id/ceValueText"
-            android:text="Conductividad: 1.5 mS/cm"
+            android:text="@string/conductividad_placeholder"
             android:textSize="18sp"
             android:textColor="#6A1B9A"
             android:layout_marginBottom="8dp"
@@ -50,7 +50,7 @@
 
         <TextView
             android:id="@+id/ceEstadoText"
-            android:text="Estado de la carne"
+            android:text="@string/estado_carne_conductividad"
             android:textSize="16sp"
             android:textColor="#444444"
             android:layout_marginTop="12dp"

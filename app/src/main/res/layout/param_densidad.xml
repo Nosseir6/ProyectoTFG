@@ -17,7 +17,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="3. Densidad específica"
+            android:text="@string/densidad"
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="#0277BD" />
@@ -26,7 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingTop="8dp"
-            android:text="• Normal: 1.028 - 1.035 g/ml\n📉 Muy baja: leche aguada\n📈 Muy alta: leche concentrada o adulterada"
+            android:text="@string/densidad_description"
             android:textSize="16sp"
             android:textColor="#444444" />
     </LinearLayout>

@@ -24,7 +24,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Descubre los secretos de los alimentos con nuestra app interactiva."
+                android:text="@string/secertos_alimentos_text"
                 android:textSize="18sp"
                 android:padding="16dp"
                 android:textColor="#212121" />
@@ -42,7 +42,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
-                android:text="La leche es un alimento esencial, rico en nutrientes.\n\nCon esta aplicación aprenderás cómo se analiza y por qué es tan importante en nuestra alimentación."
+                android:text="@string/leche_description"
                 android:textSize="18sp"
                 android:textColor="#333333" />
         </androidx.cardview.widget.CardView>

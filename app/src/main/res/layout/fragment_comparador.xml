@@ -15,7 +15,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Comparador de Leches"
+            android:text="@string/comparador_de_leches"
             android:textSize="24sp"
             android:textStyle="bold"
             android:textColor="#00897B"

@@ -9,7 +9,7 @@
         android:gravity="bottom"
         android:orientation="vertical"
         android:padding="16dp"
-        android:background="@color/black">
+        android:background="@color/red">
 
         <TextView
             android:text="Simulador Carne"

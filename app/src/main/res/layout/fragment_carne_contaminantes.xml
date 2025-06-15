@@ -13,7 +13,7 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:text="Contaminantes Comunes en la Carne"
+            android:text="@string/contaminantes_carne"
             android:textSize="22sp"
             android:textStyle="bold"
             android:textColor="#B71C1C"
@@ -37,7 +37,7 @@
                 android:layout_height="wrap_content">
 
                 <TextView
-                    android:text="☣️ Metales Pesados (Pb, Hg, Cd)"
+                    android:text="@string/metales_pesados"
                     android:textStyle="bold"
                     android:textSize="18sp"
                     android:textColor="#37474F"
@@ -45,7 +45,7 @@
                     android:layout_height="wrap_content" />
 
                 <TextView
-                    android:text="RIESGO ALTO"
+                    android:text="@string/riesgo_alto"
                     android:textColor="@android:color/white"
                     android:textStyle="bold"
                     android:background="@drawable/bg_chip_red"
@@ -55,7 +55,7 @@
                     android:layout_height="wrap_content" />
 
                 <TextView
-                    android:text="• Riesgos: neurotóxicos, acumulativos\n• Límite legal: ≤ 0.1 mg/kg\n• Origen: agua contaminada, piensos"
+                    android:text="@string/riesgo_description"
                     android:textSize="16sp"
                     android:textColor="#555"
                     android:layout_marginTop="8dp"
@@ -80,7 +80,7 @@
                 android:layout_height="wrap_content">
 
                 <TextView
-                    android:text="💊 Antibióticos"
+                    android:text="@string/antibioticos"
                     android:textStyle="bold"
                     android:textSize="18sp"
                     android:textColor="#37474F"
@@ -88,7 +88,7 @@
                     android:layout_height="wrap_content" />
 
                 <TextView
-                    android:text="RIESGO MODERADO"
+                    android:text="@string/riesgo_moderado"
                     android:textColor="@android:color/white"
                     android:textStyle="bold"
                     android:background="@drawable/bg_chip_orange"
@@ -98,7 +98,7 @@
                     android:layout_height="wrap_content" />
 
                 <TextView
-                    android:text="• Riesgos: resistencia bacteriana\n• Límite: depende del compuesto\n• Origen: tratamientos veterinarios"
+                    android:text="@string/riesmo_moderado_description"
                     android:textSize="16sp"
                     android:textColor="#555"
                     android:layout_marginTop="8dp"
@@ -122,7 +122,7 @@
                 android:layout_height="wrap_content">
 
                 <TextView
-                    android:text="🔥 PCBs y Dioxinas"
+                    android:text="@string/pcbs_y_dioxinas"
                     android:textStyle="bold"
                     android:textSize="18sp"
                     android:textColor="#37474F"
@@ -130,7 +130,7 @@
                     android:layout_height="wrap_content" />
 
                 <TextView
-                    android:text="RIESGO ALTO"
+                    android:text="@string/riesgo_alto"
                     android:textColor="@android:color/white"
                     android:textStyle="bold"
                     android:background="@drawable/bg_chip_red"
@@ -140,7 +140,7 @@
                     android:layout_height="wrap_content" />
 
                 <TextView
-                    android:text="• Riesgos: cancerígenos, disruptores hormonales\n• Límite legal: muy bajo\n• Origen: contaminación industrial"
+                    android:text="@string/riesgo_toxinas_description"
                     android:textSize="16sp"
                     android:textColor="#555"
                     android:layout_marginTop="8dp"

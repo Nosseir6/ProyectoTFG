@@ -14,7 +14,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Consejos para Elegir y Conservar Carne"
+            android:text="@string/consejos_carne"
             android:textSize="22sp"
             android:textStyle="bold"
             android:textColor="#33691E"
@@ -38,7 +38,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="🎨 Color natural"
+                    android:text="@string/color_natural"
                     android:textStyle="bold"
                     android:textSize="18sp"
                     android:textColor="#2E7D32" />
@@ -55,7 +55,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="Debe ser rojo brillante (ternera), rosado (cerdo) o blanco suave (pollo). Si es pardo o verdoso, evita comprarla."
+                    android:text="@string/color_carne_description"
                     android:textSize="16sp"
                     android:textColor="#555555" />
             </LinearLayout>
@@ -79,7 +79,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="👃 Olor fresco"
+                    android:text="@string/olor_fresco"
                     android:textStyle="bold"
                     android:textSize="18sp"
                     android:textColor="#F9A825" />
@@ -88,7 +88,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="La carne debe tener un olor suave o casi neutro. Si huele ácido o a amoníaco, no es segura para el consumo."
+                    android:text="@string/olor_descripcion"
                     android:textSize="16sp"
                     android:textColor="#555555" />
             </LinearLayout>
@@ -112,7 +112,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="🔖 Etiquetado correcto"
+                    android:text="@string/etiquetado_correcto"
                     android:textStyle="bold"
                     android:textSize="18sp"
                     android:textColor="#512DA8" />
@@ -128,7 +128,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="Verifica origen, fecha de envasado y consumo preferente. Desconfía si hay datos borrosos o manipulados."
+                    android:text="@string/olor_description"
                     android:textSize="16sp"
                     android:textColor="#555555" />
             </LinearLayout>
@@ -152,7 +152,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="🧊 Conservación en frío"
+                    android:text="@string/conservacion_carne"
                     android:textStyle="bold"
                     android:textSize="18sp"
                     android:textColor="#00796B" />
@@ -168,7 +168,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="Mantén la carne a 0–4 °C. Si no la vas a usar pronto, congélala bien embalada para evitar quemaduras por frío."
+                    android:text="@string/conservacion_description"
                     android:textSize="16sp"
                     android:textColor="#555555" />
             </LinearLayout>

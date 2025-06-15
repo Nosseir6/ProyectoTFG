@@ -16,7 +16,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="🐐 Leche de Cabra"
+            android:text="@string/leche_de_cabra"
             android:textSize="18sp"
             android:textStyle="bold"
             android:textColor="#388E3C" />
@@ -24,7 +24,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="• Grasa: Media\n• Proteínas: Alta\n• Lactosa: Baja\n• Densidad: 1.032\n• Digestibilidad: Fácil"
+            android:text="@string/cabra_description"
             android:textSize="16sp"
             android:textColor="#333333"
             android:paddingTop="8dp" />

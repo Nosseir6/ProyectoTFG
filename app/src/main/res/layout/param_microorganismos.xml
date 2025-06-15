@@ -17,7 +17,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="6. Microorganismos"
+            android:text="@string/microorganismos"
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="#6A1B9A" />
@@ -26,7 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingTop="8dp"
-            android:text="🦠 Bacterias buenas → útiles en yogures y quesos\n🚫 Bacterias malas → presentes si la leche está mal conservada"
+            android:text="@string/microorganismos_description"
             android:textSize="16sp"
             android:textColor="#444444" />
     </LinearLayout>

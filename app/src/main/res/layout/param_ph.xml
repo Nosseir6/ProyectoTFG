@@ -17,7 +17,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="2. pH"
+            android:text="@string/ph"
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="#2E7D32" />
@@ -26,7 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingTop="8dp"
-            android:text="• Fresca: pH 6.6–6.8 ✅\n• &lt;6.5: leche fermentada ❌\n• &gt;7.0: leche contaminada ❌"
+            android:text="@string/ph_description"
             android:textSize="16sp"
             android:textColor="#444444" />
 
@@ -34,7 +34,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingTop="8dp"
-            android:text="👉 ¿Qué pasa si sube o baja el pH?\nLa leche se vuelve turbia o burbujeante."
+            android:text="@string/ph_quesiton"
             android:textSize="15sp"
             android:textColor="#666666" />
     </LinearLayout>

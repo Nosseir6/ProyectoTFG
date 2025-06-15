@@ -17,7 +17,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="5. Punto de ebullición"
+            android:text="@string/ebullicion"
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="#F57F17" />
@@ -26,7 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingTop="8dp"
-            android:text="• Temperatura: 100.2–100.6°C ♨️\n• Mayor que el agua\n• Sirve para detectar adulteraciones y controlar la pasteurización"
+            android:text="@string/ebullicion_description"
             android:textSize="16sp"
             android:textColor="#444444" />
     </LinearLayout>

@@ -11,7 +11,7 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:text="pH y frescura de la carne"
+            android:text="@string/ph_y_frescura"
             android:textSize="22sp"
             android:textStyle="bold"
             android:textColor="#B71C1C"
@@ -20,7 +20,7 @@
             android:layout_height="wrap_content" />
 
         <TextView
-            android:text="El pH de la carne permite conocer su estado de frescura. Valores normales van de 5.4 a 6.0. Un pH bajo puede indicar carne PSE (blanda y pálida), y uno alto carne DFD (oscura y seca)."
+            android:text="@string/ph_decripccion"
             android:textSize="16sp"
             android:textColor="#444444"
             android:layout_marginBottom="16dp"
@@ -30,7 +30,7 @@
         <!-- Texto del valor de pH -->
         <TextView
             android:id="@+id/phValueText"
-            android:text="pH: 6.2"
+            android:text="@string/ph_6_2"
             android:textSize="18sp"
             android:textColor="#1976D2"
             android:layout_marginBottom="8dp"
@@ -56,7 +56,7 @@
         <!-- Texto de estado -->
         <TextView
             android:id="@+id/estadoText"
-            android:text="Estado actual de la carne"
+            android:text="@string/estado_carne"
             android:textSize="16sp"
             android:textColor="#444444"
             android:layout_marginTop="12dp"

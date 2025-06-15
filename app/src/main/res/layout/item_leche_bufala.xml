@@ -16,7 +16,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="🐃 Leche de Búfala"
+            android:text="@string/leche_de_b_fala"
             android:textSize="18sp"
             android:textStyle="bold"
             android:textColor="#0288D1" />
@@ -24,7 +24,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="• Grasa: Muy alta\n• Proteínas: Muy alta\n• Lactosa: Baja\n• Densidad: 1.040+\n• Digestibilidad: Muy densa"
+            android:text="@string/bufala_description"
             android:textSize="16sp"
             android:textColor="#333333"
             android:paddingTop="8dp" />

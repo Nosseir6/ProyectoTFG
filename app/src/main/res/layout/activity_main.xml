@@ -49,7 +49,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Carne"
+                    android:text="@string/carne"
                     android:textSize="18sp"
                     android:textStyle="bold"
                     android:textColor="#880E4F"
@@ -87,7 +87,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="Leche"
+                    android:text="@string/leche"
                     android:textColor="#37474F"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -121,7 +121,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Huevo"
+                    android:text="@string/huevo"
                     android:textSize="18sp"
                     android:textStyle="bold"
                     android:textColor="#F57F17"
@@ -156,7 +156,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Aceite"
+                    android:text="@string/aceite"
                     android:textSize="18sp"
                     android:textStyle="bold"
                     android:textColor="#827717"
@@ -192,7 +192,7 @@
 
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Pescado"
+                    android:text="@string/pescado"
                     android:textSize="18sp"
                     android:textStyle="bold"
                     android:textColor="#0288D1"
@@ -205,7 +205,7 @@
             android:id="@+id/button_Exit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Salir"
+            android:text="@string/salir"
             android:layout_marginTop="24dp"
             android:backgroundTint="#FFCDD2"
             android:textColor="#B71C1C" />

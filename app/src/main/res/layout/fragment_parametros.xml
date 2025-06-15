@@ -15,7 +15,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Parámetros Físico-Químicos de la Leche"
+            android:text="@string/parametros_leche"
             android:textSize="24sp"
             android:textStyle="bold"
             android:textColor="#388E3C"

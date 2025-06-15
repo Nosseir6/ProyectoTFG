@@ -16,7 +16,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="👩🍼 Leche Humana"
+            android:text="@string/leche_humana"
             android:textSize="18sp"
             android:textStyle="bold"
             android:textColor="#C2185B" />
@@ -24,7 +24,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="• Grasa: Baja\n• Proteínas: Baja\n• Lactosa: Alta\n• Densidad: 1.028\n• Digestibilidad: Muy digestible"
+            android:text="@string/humana_description"
             android:textSize="16sp"
             android:textColor="#333333"
             android:paddingTop="8dp" />

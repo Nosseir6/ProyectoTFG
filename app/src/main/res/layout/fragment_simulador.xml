@@ -12,35 +12,48 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <!-- Título -->
-        <TextView
+        <!-- Título con ícono -->
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Simulador Interactivo"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:textColor="#1E88E5"
             android:gravity="center"
-            android:paddingBottom="16dp" />
+            android:orientation="horizontal"
+            android:paddingBottom="12dp">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_simulador"
+                app:tint="#1E88E5"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/simulador_interactivo_title"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#1E88E5" />
+        </LinearLayout>
 
         <!-- Instrucciones -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ajusta los parámetros y observa cómo cambia la leche:"
+            android:text="@string/ajusta_los_par_metros_y_observa_c_mo_cambia_la_leche"
             android:textSize="16sp"
             android:textStyle="italic"
             android:textColor="#333333"
-            android:paddingBottom="12dp" />
+            android:paddingBottom="16dp" />
 
-        <!-- CARDVIEW DE PARÁMETROS -->
+        <!-- PARÁMETRO: pH -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            app:cardElevation="5dp"
+            android:layout_marginBottom="12dp"
+            app:cardElevation="4dp"
             app:cardCornerRadius="12dp"
-            android:backgroundTint="#E3F2FD">
+            android:backgroundTint="#FFFFFF">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -48,12 +61,20 @@
                 android:orientation="vertical"
                 android:padding="16dp">
 
-                <!-- BLOQUE PARA pH -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/parametro_ph"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#1976D2"
+                    android:paddingBottom="8dp" />
+
                 <TextView
                     android:id="@+id/phText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="pH: 7"
+                    android:text="@string/ph_placeholder"
                     android:textSize="16sp"
                     android:textColor="#1976D2" />
 
@@ -76,17 +97,46 @@
                     android:id="@+id/phMensaje"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="pH ideal"
-                    android:textSize="16sp"
-                    android:textColor="#444444"
-                    android:layout_marginBottom="24dp" />
+                    android:text="@string/ph_ideal_holder"
+                    android:textSize="14sp"
+                    android:textColor="#2E7D32"
+                    android:drawableStart="@drawable/ic_check"
+                    android:drawablePadding="8dp"
+                    android:padding="8dp"
+                    android:background="@drawable/rounded_info_background"
+                    android:layout_marginTop="8dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
 
-                <!-- BLOQUE PARA Acidez -->
+        <!-- PARÁMETRO: Acidez -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="12dp"
+            android:backgroundTint="#FFFFFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/par_metro_acidez"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#1976D2"
+                    android:paddingBottom="8dp" />
+
                 <TextView
                     android:id="@+id/acidezText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Acidez: 7ºD"
+                    android:text="@string/acidez_7_d"
                     android:textSize="16sp"
                     android:textColor="#1976D2" />
 
@@ -109,17 +159,46 @@
                     android:id="@+id/acidezMensaje"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Acidez normal"
-                    android:textSize="16sp"
-                    android:textColor="#444444"
-                    android:layout_marginBottom="24dp" />
+                    android:text="@string/acidez_normal"
+                    android:textSize="14sp"
+                    android:textColor="#2E7D32"
+                    android:drawableStart="@drawable/ic_check"
+                    android:drawablePadding="8dp"
+                    android:padding="8dp"
+                    android:background="@drawable/rounded_info_background"
+                    android:layout_marginTop="8dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
 
-                <!-- BLOQUE PARA Temperatura -->
+        <!-- PARÁMETRO: Temperatura -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="12dp"
+            android:backgroundTint="#FFFFFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/par_metro_temperatura"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#1976D2"
+                    android:paddingBottom="8dp" />
+
                 <TextView
                     android:id="@+id/tempText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Temperatura: 20°C"
+                    android:text="@string/temperatura_20_c"
                     android:textSize="16sp"
                     android:textColor="#1976D2" />
 
@@ -142,17 +221,46 @@
                     android:id="@+id/tempMensaje"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Temperatura ambiente"
-                    android:textSize="16sp"
-                    android:textColor="#444444"
-                    android:layout_marginBottom="24dp" />
+                    android:text="@string/temperatura_ambiente"
+                    android:textSize="14sp"
+                    android:textColor="#2E7D32"
+                    android:drawableStart="@drawable/ic_check"
+                    android:drawablePadding="8dp"
+                    android:padding="8dp"
+                    android:background="@drawable/rounded_info_background"
+                    android:layout_marginTop="8dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
 
-                <!-- BLOQUE PARA Densidad -->
+        <!-- PARÁMETRO: Densidad -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="12dp"
+            android:backgroundTint="#FFFFFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/parametro_densidad"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#1976D2"
+                    android:paddingBottom="8dp" />
+
                 <TextView
                     android:id="@+id/densidadText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Densidad: 1.03 g/cm³"
+                    android:text="@string/densidad_placeholder"
                     android:textSize="16sp"
                     android:textColor="#1976D2" />
 
@@ -175,12 +283,16 @@
                     android:id="@+id/densidadMensaje"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Densidad ideal"
-                    android:textSize="16sp"
-                    android:textColor="#444444"
-                    android:layout_marginBottom="16dp" />
-
+                    android:text="@string/densidad_ideal"
+                    android:textSize="14sp"
+                    android:textColor="#2E7D32"
+                    android:drawableStart="@drawable/ic_check"
+                    android:drawablePadding="8dp"
+                    android:padding="8dp"
+                    android:background="@drawable/rounded_info_background"
+                    android:layout_marginTop="8dp" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
+
     </LinearLayout>
 </ScrollView>

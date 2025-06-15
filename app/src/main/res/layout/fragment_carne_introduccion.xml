@@ -9,7 +9,7 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:text="Introducción al análisis de la carne"
+            android:text="@string/analisis_carne"
             android:textSize="22sp"
             android:textStyle="bold"
             android:textColor="#B71C1C"
@@ -18,7 +18,7 @@
             android:layout_height="wrap_content" />
 
         <TextView
-            android:text="El análisis físico-químico de la carne permite evaluar su calidad, frescura, contenido nutricional y seguridad para el consumo humano. Este análisis incluye parámetros como el pH, la capacidad de retención de agua (CRA), la conductividad eléctrica, la presencia de contaminantes y microorganismos, entre otros."
+            android:text="@string/analisis_carne_description"
             android:textSize="16sp"
             android:textColor="#444444"
             android:layout_width="match_parent"
