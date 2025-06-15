@@ -1,8 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    android:background="#FAFAFA">
+    android:background="#F9FBE7"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <LinearLayout
         android:orientation="vertical"
@@ -10,120 +12,167 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:text="Consejos para el consumidor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Consejos para Elegir y Conservar Carne"
             android:textSize="22sp"
             android:textStyle="bold"
             android:textColor="#33691E"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Consejo: Color -->
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <!-- Color -->
-        <TextView
-            android:text="👁️ Color"
-            android:textStyle="bold"
-            android:textSize="18sp"
-            android:textColor="#33691E"
-            android:layout_marginBottom="4dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-
-        <TextView
-            android:text="El color de la carne debe ser homogéneo. Evita carnes grisáceas, verdosas o con zonas oscuras."
-            android:textSize="16sp"
-            android:textColor="#444444"
+            android:layout_height="wrap_content"
             android:layout_marginBottom="12dp"
+            android:backgroundTint="#DCEDC8"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🎨 Color natural"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#2E7D32" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginTop="12dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/carne_color" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Debe ser rojo brillante (ternera), rosado (cerdo) o blanco suave (pollo). Si es pardo o verdoso, evita comprarla."
+                    android:textSize="16sp"
+                    android:textColor="#555555" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Consejo: Olor -->
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <!-- Olor -->
-        <TextView
-            android:text="👃 Olor"
-            android:textStyle="bold"
-            android:textSize="18sp"
-            android:textColor="#33691E"
-            android:layout_marginBottom="4dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-
-        <TextView
-            android:text="Un olor fuerte, ácido o desagradable indica deterioro. La carne fresca tiene un olor suave y neutro."
-            android:textSize="16sp"
-            android:textColor="#444444"
+            android:layout_height="wrap_content"
             android:layout_marginBottom="12dp"
+            android:backgroundTint="#FFF9C4"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="👃 Olor fresco"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#F9A825" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="La carne debe tener un olor suave o casi neutro. Si huele ácido o a amoníaco, no es segura para el consumo."
+                    android:textSize="16sp"
+                    android:textColor="#555555" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Consejo: Etiquetado -->
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <!-- Textura -->
-        <TextView
-            android:text="🤲 Textura"
-            android:textStyle="bold"
-            android:textSize="18sp"
-            android:textColor="#33691E"
-            android:layout_marginBottom="4dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-
-        <TextView
-            android:text="Debe ser firme al tacto y no demasiado húmeda. Si está pegajosa o blanda, puede estar en mal estado."
-            android:textSize="16sp"
-            android:textColor="#444444"
+            android:layout_height="wrap_content"
             android:layout_marginBottom="12dp"
+            android:backgroundTint="#D1C4E9"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🔖 Etiquetado correcto"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#512DA8" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginTop="12dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/carne_etiqueta" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Verifica origen, fecha de envasado y consumo preferente. Desconfía si hay datos borrosos o manipulados."
+                    android:textSize="16sp"
+                    android:textColor="#555555" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Consejo: Conservación -->
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <!-- Etiquetado -->
-        <TextView
-            android:text="🏷️ Etiquetado"
-            android:textStyle="bold"
-            android:textSize="18sp"
-            android:textColor="#33691E"
-            android:layout_marginBottom="4dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-
-        <TextView
-            android:text="Revisa la fecha de caducidad, el número de lote y el tipo de carne (origen, animal, canal, etc.)."
-            android:textSize="16sp"
-            android:textColor="#444444"
+            android:layout_height="wrap_content"
             android:layout_marginBottom="12dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:backgroundTint="#B2EBF2"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp">
 
-        <!-- Conservación -->
-        <TextView
-            android:text="❄️ Conservación"
-            android:textStyle="bold"
-            android:textSize="18sp"
-            android:textColor="#33691E"
-            android:layout_marginBottom="4dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
 
-        <TextView
-            android:text="Mantén la carne refrigerada (0–4 °C) o congelada (-18 °C). No la expongas al sol ni la dejes sin refrigeración."
-            android:textSize="16sp"
-            android:textColor="#444444"
-            android:layout_marginBottom="12dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🧊 Conservación en frío"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#00796B" />
 
-        <!-- Compra segura -->
-        <TextView
-            android:text="🛒 Compra segura"
-            android:textStyle="bold"
-            android:textSize="18sp"
-            android:textColor="#33691E"
-            android:layout_marginBottom="4dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginTop="12dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/carne_almacenamiento" />
 
-        <TextView
-            android:text="Compra carne en comercios autorizados, con controles sanitarios y buena rotación del producto."
-            android:textSize="16sp"
-            android:textColor="#444444"
-            android:layout_marginBottom="12dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Mantén la carne a 0–4 °C. Si no la vas a usar pronto, congélala bien embalada para evitar quemaduras por frío."
+                    android:textSize="16sp"
+                    android:textColor="#555555" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
     </LinearLayout>
 </ScrollView>

@@ -60,7 +60,7 @@ public class ConductivityFragment extends Fragment {
             ceEstado.setText("⚠️ Baja CE: carne probablemente seca o vieja.");
             ceEstado.setTextColor(Color.parseColor("#C62828"));
         } else if (ce <= 2.0f) {
-            carneImage.setImageResource(R.drawable.ce_normal);
+            carneImage.setImageResource(R.drawable.carne_normal);
             ceEstado.setText("✅ Conductividad normal. Buena frescura.");
             ceEstado.setTextColor(Color.parseColor("#2E7D32"));
         } else {

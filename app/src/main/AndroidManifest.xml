@@ -19,6 +19,8 @@
         <activity
             android:name=".Oil"
             android:exported="false" />
+        <activity android:name=".meat.MeatActivity"
+            android:exported="false"/>
         <activity
             android:name=".MainActivity"
             android:exported="true" >

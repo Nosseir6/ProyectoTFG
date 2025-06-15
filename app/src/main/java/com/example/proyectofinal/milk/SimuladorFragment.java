@@ -36,8 +36,6 @@ public class SimuladorFragment extends Fragment {
         // Referencias a vistas desde el layout
         phSeekBar = view.findViewById(R.id.phSeekBar);
         phText = view.findViewById(R.id.phText);
-        mensajeEstado = view.findViewById(R.id.mensajeEstado);
-        milkImageView = view.findViewById(R.id.milkImageView);
 
         phSeekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
@@ -78,15 +76,15 @@ public class SimuladorFragment extends Fragment {
 
     private void actualizarVisualSegunAcidez(int acidez) {
         if (acidez < 3) {
-            milkImageView.setImageResource(R.drawable.leche_muy_acida);
+            milkImageView.setImageResource(R.drawable.leche_acida);
             mensajeEstado.setText("⚠️ Acidez extrema. No es apta para consumo.");
             mensajeEstado.setTextColor(Color.parseColor("#B71C1C"));
         } else if (acidez <= 6) {
-            milkImageView.setImageResource(R.drawable.leche_acidez_optima);
+            milkImageView.setImageResource(R.drawable.leche_basica);
             mensajeEstado.setText("✅ Nivel de acidez óptimo.");
             mensajeEstado.setTextColor(Color.parseColor("#2E7D32"));
         } else {
-            milkImageView.setImageResource(R.drawable.leche_acidez_alta);
+            milkImageView.setImageResource(R.drawable.leche_agria);
             mensajeEstado.setText("⚠️ Acidez algo elevada. Consumir con precaución.");
             mensajeEstado.setTextColor(Color.parseColor("#F9A825"));
         }

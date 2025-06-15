@@ -15,6 +15,6 @@ public class ConsejosConsumidorFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_consejos_consumidor, container, false);
+        return inflater.inflate(R.layout.fragment_carne_consejos, container, false);
     }
 }

@@ -11,7 +11,7 @@ import androidx.appcompat.app.ActionBarDrawerToggle;
 import com.example.proyectofinal.R;
 import com.google.android.material.navigation.NavigationView;
 
-public class MeatActivity extends AppCompatActivity{
+public class MeatActivity extends AppCompatActivity {
 
     private DrawerLayout drawerLayout;
     private NavigationView navView;
@@ -39,38 +39,24 @@ public class MeatActivity extends AppCompatActivity{
         navView.setNavigationItemSelectedListener(item -> {
             Fragment selectedFragment = null;
 
-            switch (item.getItemId()) {
-                case R.id.nav_intro:
-                    selectedFragment = new IntroductionFragment();
-                    break;
-                case R.id.nav_composicion:
-                    selectedFragment = new ComposicionBasicaFragment();
-                    break;
-                case R.id.nav_ph_higiene:
-                    selectedFragment = new HealthFragment();
-                    break;
-                case R.id.nav_calidad:
-                    selectedFragment = new ConductivityActivity();
-                    break;
-                case R.id.nav_cra:
-                    selectedFragment = new ClasificacionFragment();
-                    break;
-                case R.id.nav_conductividad:
-                    selectedFragment = new ConductividadFragment();
-                    break;
-                case R.id.nav_contaminantes:
-                    selectedFragment = new ContaminantesFragment();
-                    break;
-                case R.id.nav_microorganismos:
-                    selectedFragment = new MicroorganismosFragment();
-                    break;
-                case R.id.nav_dietetica:
-                    selectedFragment = new AplicacionesDieteticasFragment();
-                    break;
-                case R.id.nav_checklist:
-                    selectedFragment = new ChecklistFragment();
-                    break;
+            int id = item.getItemId();
+
+            if (id == R.id.nav_intro) {
+                selectedFragment = new IntroductionFragment();
+            } else if (id == R.id.nav_composicion) {
+                selectedFragment = new ComposicionBasicaFragment();
+            } else if (id == R.id.nav_ph_higiene) {
+                selectedFragment = new HealthFragment();
+            } else if (id == R.id.nav_conductividad) {
+                selectedFragment = new ConductivityFragment();
+            } else if (id == R.id.nav_clasificacion) {
+                selectedFragment = new ClasificacionFragment();
+            } else if (id == R.id.nav_contaminantes) {
+                selectedFragment = new ContaminantesFragment();
+            } else if (id == R.id.nav_consejos) {
+                selectedFragment = new ConsejosConsumidorFragment();
             }
+
 
             if (selectedFragment != null) {
                 getSupportFragmentManager().beginTransaction()
@@ -84,7 +70,7 @@ public class MeatActivity extends AppCompatActivity{
 
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
-                    .replace(R.id.content_frame_meat, new CarneIntroduccionFragment())
+                    .replace(R.id.content_frame_meat, new IntroductionFragment())
                     .commit();
             navView.setCheckedItem(R.id.nav_intro);
         }
