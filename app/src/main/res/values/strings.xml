@@ -92,4 +92,183 @@
     <string name="ph_quesiton">👉 ¿Qué pasa si sube o baja el pH?\nLa leche se vuelve turbia o burbujeante.</string>
     <string name="leches_del_mundo">Leches del Mundo</string>
 
+
+    <string name="texto_almidon">
+    &#x25A0; <font color="#a0522d"><b>Almidón</b></font>: es el polisacárido predominante.
+    </string>
+
+    <string name="texto_trigo">
+    - En el caso del trigo, destacan la <b>gliadina</b> y la <b>glutenina</b>, que, al mezclarse con agua, forman el <b>gluten</b>, responsable de la elasticidad y firmeza de las masas.
+</string>
+
+    <string name="texto_minerales">- Entre ellos destacan minerales como el <b>hierro</b>, <b>fósforo</b>, <b>magnesio</b>, <b>potasio</b> y <b>zinc</b>.</string>
+
+    <string name="texto_pigmentos">- Algunas harinas contienen pigmentos como los <b>carotenoides</b> (por ejemplo, luteína), que dan un color amarillo suave a la harina de trigo duro.</string>
+
+    <string name="texto_fitatos">- Los <b>fitatos</b>, por ejemplo, pueden reducir la absorción de minerales como el hierro y el zinc, aunque también ofrecen efectos antioxidantes beneficiosos.</string>
+
+
+    <string name="texto_azucares">
+    &#x25A0; <font color="#A0522D"><b>Azúcares simples</b></font> (como glucosa y maltosa)
+</string>
+
+    <string name="texto_harina">
+    Siendo el componente <b>principal</b> de las <b>harinas</b>, dentro de ellos encontramos:
+</string>
+
+    <string name="texto_amilasas">• <b>Amilasas</b>: que descomponen el almidón en azúcares simples durante la fermentación.</string>
+
+    <string name="texto_proteasas">• <b>Proteasas:</b> que actúan sobre las proteínas, modificando la elasticidad de la masa. Estas enzimas son fundamentales para procesos como la fermentación y la maduración de la masa.</string>
+
+
+    <string name="general_harina">
+
+        Es un polvo fino obtenido principalmente de la molienda de cereales como
+el trigo, aunque también se pueden utilizar otros granos como el maíz, centeno, avena, arroz o
+incluso legumbres y frutos secos.\n\n
+
+
+Se trata de un ingrediente esencial en la alimentación humana, ya que constituye una de las
+principales fuentes de energía debido a su alto contenido en carbohidratos. Además, aporta
+proteínas, fibras y vitaminas y minerales, esenciales para el organismo.\n\n
+
+
+La harina no solo se usa en la preparación de productos básicos como panes y pasteles, sino
+que ha evolucionado a lo largo del tiempo para adaptarse a diversas necesidades alimenticias.
+Por eso, existen harinas integrales, que conservan los nutrientes del grano entero, y harinas
+más refinadas, que son principalmente almidón. Este proceso de molienda y refinado influye
+en sus características y propiedades, lo que hace que las harinas se adapten a distintos usos
+culinarios y dietéticos.\n\n
+
+
+Además, hoy en día, las harinas tienen aplicaciones mucho más amplias. No solo se utilizan
+en la cocina tradicional, sino también en la industria alimentaria, adaptándose a tendencias
+como la alimentación sin gluten, la elaboración de productos más saludables y en la creación
+de harinas especializadas para necesidades dietéticas específicas.
+
+</string>
+
+    <string name="desc_imagen_parametro">Icono del parámetro</string>
+
+
+    <string name="param_humedad">
+La humedad es uno de los parámetros físico-químicos más importantes en la evaluación de la harina, ya que influye directamente en su conservación, estabilidad y comportamiento durante la elaboración de productos.
+
+El contenido de humedad en la harina general oscila entre el 12-15%. Si la humedad supera el 15%, crea un ambiente ideal para el crecimiento de hongos, bacterias y otros microorganismos, lo que podría afectar su calidad y seguridad.
+
+Una harina con un contenido de humedad adecuado (12-14%) garantiza una buena conservación, especialmente si se almacena en condiciones frescas y secas. Sin embargo, cuando la harina tiene la humedad muy alta, puede apelmazarse y absorber olores o sabores del ambiente.
+
+Por otro lado, cuando la harina presenta un contenido de humedad bajo (&lt; 12%), absorbe más agua durante el amasado. En estos casos, los panaderos necesitan añadir más agua durante el amasado, ya que la harina seca absorbe más líquido. Esto puede ser una ventaja en la panificación artesanal, donde se busca controlar con precisión la cantidad de agua para obtener la textura ideal de la masa. Es decir, la harina seca les da más libertad a los panaderos artesanales para ajustar la masa a su gusto.
+
+La harina es higroscópica, lo que significa que absorbe la humedad del aire, por lo que es esencial almacenarla en lugares secos y en envases herméticos para evitar que se altere su calidad.
+
+El contenido de humedad en la harina se mide utilizando un medidor de humedad, que es una máquina diseñada para determinar la cantidad de agua presente en la harina de forma precisa. Generalmente, este dispositivo mide el contenido de humedad mediante un proceso en el que se calienta la harina para evaporar el agua y luego se mide la pérdida de peso.
+
+También existen modelos más avanzados que utilizan tecnología de infrarrojos o sensores electrónicos, los cuales permiten obtener mediciones sin necesidad de calentar la muestra. El resultado se expresa en porcentaje (%) de humedad, indicando la cantidad de agua presente en la harina.
+</string>
+
+
+    <string name="param_granulometria">
+La granulometría se refiere al tamaño y distribución de las partículas de harina, lo que influye directamente en la absorción de agua y la textura del producto final. El tamaño de partícula tiene un impacto significativo en el comportamiento de la masa y en las características del producto terminado.
+
+Harinas finas: Las partículas más pequeñas permiten una rápida absorción de agua, lo que las hace ideales para panificación y repostería, ya que contribuyen a una textura más suave y esponjosa.
+
+Harinas gruesas: Con partículas más grandes, son utilizadas en la elaboración de productos integrales o aquellos que requieren una textura más rústica. Estas harinas conservan más salvado y germen, lo que les otorga un mayor valor nutricional y una miga más densa.
+
+El tamaño de las partículas se mide en micras, utilizando tamices estandarizados. En este proceso, la harina se pasa a través de una serie de tamices con diferentes tamaños de malla. Se utiliza una técnica de tamizado en la que la harina se agita o se vibra para separar las partículas de acuerdo a su tamaño. Aquellas que son más grandes quedan retenidas en los tamices de malla más gruesa, mientras que las partículas más pequeñas pasan a través de ellos. El análisis se realiza calculando el porcentaje de harina que se retiene en cada tamiz, lo que proporciona información precisa sobre la distribución del tamaño de partícula.
+
+Este control de granulometría es crucial, ya que asegura que la harina esté adaptada a los requisitos específicos del proceso de producción, ya sea en panificación artesanal, repostería o productos integrales.
+</string>
+
+    <string name="info_humedad">
+    La <b>humedad</b> es uno de los parámetros físico-químicos más importantes en la evaluación de la harina, ya que influye directamente en su <b>conservación</b>, <b>estabilidad</b> y comportamiento durante la elaboración de productos.\n\n
+    El contenido de humedad en la harina general oscila entre el <b>12-15%</b>. Si la humedad supera el <b>15%</b>, crea un ambiente ideal para el crecimiento de hongos, bacterias y otros microorganismos, lo que podría afectar su calidad y seguridad.\n
+    Una harina con un contenido de humedad adecuado (<b>12-14%</b>) garantiza una buena conservación, especialmente si se almacena en condiciones frescas y secas. Sin embargo, cuando la harina tiene la humedad muy alta, puede <b>apelmazarse</b> y absorber olores o sabores del ambiente.\n\n
+    Para medir la humedad se suele emplear un método gravimétrico, que consiste en pesar la muestra antes y después del secado a una temperatura determinada hasta obtener un peso constante.
+</string>
+
+    <string name="info_granulometria">
+    La <b>granulometría</b> o tamaño de partícula de la harina afecta la absorción de agua, la textura de la masa y las propiedades del producto final.\n
+    Una harina más fina suele absorber más agua y crear masas más homogéneas, mientras que una harina más gruesa puede aportar <b>textura</b> y <b>cuerpo</b> a ciertos productos.\n\n
+    La granulometría se determina mediante tamizado o análisis por difracción láser, clasificando las partículas según su tamaño.\n
+    La distribución granulométrica ideal depende del producto a elaborar: por ejemplo, harinas para panadería suelen tener partículas más finas, mientras que para algunos productos de pastelería o masas rústicas se prefieren partículas medianas o gruesas.
+</string>
+
+    <string name="info_cenizas">
+        <b>Cenizas:</b> Indican el contenido mineral de la harina. Este valor se obtiene tras la incineración de una muestra y refleja la cantidad de minerales presentes. Un contenido bajo en cenizas indica una harina más blanca y refinada, mientras que un contenido alto sugiere mayor presencia de salvado y otros componentes del grano.
+    </string>
+
+    <string name="info_proteinas">
+        <b>Proteínas:</b> Las proteínas, especialmente la <b>gliadina</b> y la <b>glutenina</b>, son esenciales para la formación del gluten. Determinan la capacidad de absorción de agua, elasticidad y tenacidad de la masa. Una harina con alto contenido proteico es ideal para panes y productos con fermentación prolongada.
+    </string>
+
+    <string name="info_gluten">
+        <b>Gluten:</b> Es una red proteica formada cuando la harina se mezcla con agua. El gluten otorga elasticidad a la masa y permite su expansión al retener gases durante la fermentación. El contenido y calidad del gluten afectan directamente el volumen, textura y miga del producto final.
+    </string>
+
+    <string name="info_almidon">
+        <b>Almidón:</b> Representa el principal componente de la harina. Durante la cocción, el almidón gelatiniza, dando estructura al producto. Además, puede degradarse por acción enzimática (amilasas), afectando el dulzor, color y conservación de los productos horneados.
+    </string>
+
+    <string name="criterios_analiticos">Criterios Analíticos</string>
+
+    <string name="titulo_acidez">• Grado de acidez ▼</string>
+    <string name="contenido_acidez">🌱 Un menor grado de acidez indica un aceite menos degradado y más saludable, con mejor perfil de ácidos grasos.</string>
+
+    <string name="titulo_peroxidos">• Índice de peróxidos ▼</string>
+    <string name="contenido_peroxidos">💪 Un aceite con bajo índice de peróxidos es más estable y protege mejor las células contra el daño oxidativo.</string>
+
+    <string name="titulo_que_aceite">• ¿Qué aceite? ▼</string>
+    <string name="contenido_que_aceite">💯 Se recomienda el aceite de oliva virgen extra para aprovechar al máximo sus beneficios protectores.</string>
+
+    <string name="titulo_como_usarlo">• ¿Cómo usarlo? ▼</string>
+    <string name="contenido_como_usarlo">🍳 Se recomienda usar aceite de oliva virgen extra en crudo o para cocinar a temperatura media, y el refinado para frituras más intensas.</string>
+    <string name="tit_macronutrientes">Macronutrientes</string>
+    <string name="desp_hidratos_de_carbono">• Hidratos de carbono ▼</string>
+    <string name="text_almidon">● Proporciona energía y es esencial para la textura y estructura de los productos tras la cocción, gracias al proceso de gelatinización</string>
+    <string name="text_azucares">● Son importantes porque alimentan a las levaduras durante la fermentación, favoreciendo el crecimiento de las masas.</string>
+    <string name="desp_proteinas">• Proteínas ▼</string>
+    <string name="text1_proteinas">- Las proteínas constituyen entre el 5% y el 20% del contenido de la harina, según la fuente de origen.</string>
+    <string name="text2_proteinas">- En otros tipos de harinas (como de maíz o arroz), las proteínas no forman gluten, lo que afecta la textura y estructura de los productos finales.</string>
+    <string name="text3_proteinas">- Además, las proteínas aportan aminoácidos esenciales para la nutrición humana.</string>
+    <string name="desp_lipidos">• Lípidos (grasas) ▼</string>
+    <string name="text1_lipidos">• Aunque en menor cantidad (entre un 1% y un 5%), los lípidos son relevantes porque:</string>
+    <string name="text2_lipidos">• Aportan sabor y contribuyen a la textura (untuosidad y ternura).</string>
+    <string name="text3_lipidos">• En harinas de frutos secos o semillas (como almendra o nuez) el contenido graso es más elevado</string>
+    <string name="text4_lipidos">• Sin embargo, los lípidos pueden oxidarse con el tiempo, provocando enranciamiento y reduciendo la vida útil de la harina.</string>
+    <string name="desp_fibra">• Fibra ▼</string>
+    <string name="intro_fibra">- La cantidad de fibra varía mucho según el tipo de harina:</string>
+    <string name="text1_fibra">• Harinas refinadas: contienen entre un 2% y un 3% de fibra.</string>
+    <string name="text2_fibra">• Harinas integrales: pueden alcanzar del 5% al 15%.</string>
+    <string name="text3_fibra">La fibra es fundamental para la salud digestiva y también influye en la capacidad de absorción de agua y en la textura de las masas.</string>
+    <string name="encabezado_micronutrientes">Micronutrientes</string>
+    <string name="desp_minerales">• Minerales (cenizas) ▼</string>
+    <string name="text1_minerales">- Representan entre el 0,5% y el 2% del peso de la harina.</string>
+    <string name="text3_minerales">- La cantidad de minerales está relacionada con el grado de extracción: las harinas integrales, que conservan el salvado y el germen, son más ricas en minerales que las harinas refinadas.</string>
+    <string name="desp_vitaminas">• Vitaminas ▼</string>
+    <string name="text1_vitaminas">- Principalmente encontramos vitaminas del grupo B (como tiamina, riboflavina, niacina y folato) y vitamina E (presente en el germen del grano).</string>
+    <string name="text2_vitaminas">- Estas vitaminas son esenciales para el metabolismo energético y otras funciones vitales.</string>
+    <string name="text3_vitaminas">- Sin embargo, en el proceso de refinado se pierde una gran parte de las vitaminas originales, lo que hace que las harinas integrales sean nutricionalmente más completas.</string>
+    <string name="encabezado_agua">Agua</string>
+    <string name="text1_agua">- La harina contiene entre un 10% y un 15% de agua.</string>
+    <string name="text2_agua">- Esta humedad natural es esencial para la hidratación de los componentes de la harina, permitiendo la formación de masas.</string>
+    <string name="text3_agua">- Además, la cantidad de agua influye en la conservación de la harina: un exceso puede favorecer la aparición de moho o bacterias.</string>
+    <string name="encabezado_otros">Otros componentes</string>
+    <string name="desp_enzimas">• Enzimas ▼</string>
+    <string name="intro_enzimas">- Existen enzimas naturales como:</string>
+    <string name="desp_compuestos">• Compuestos fenólicos y antioxidantes ▼</string>
+    <string name="text1_compuestos">- Especialmente en harinas integrales, encontramos antioxidantes naturales que ayudan a proteger las células del daño oxidativo.</string>
+    <string name="text2_compuestos">- También contribuyen al sabor, color y conservación del producto final.</string>
+    <string name="desp_pigmentos">• Pigmentos naturales ▼</string>
+    <string name="text2_pigmentos">- Estos pigmentos también tienen propiedades antioxidantes.</string>
+    <string name="desp_antinutrientes">• Antinutrientes ▼</string>
+    <string name="text1_antinutrientes">- Se encuentran principalmente en harinas integrales.</string>
+    <string name="marco_aceite">Aceite</string>
+    <string name="marco_acidos">Ácidos grasos</string>
+    <string name="marco_polifenoles">Polifenoles</string>
+    <string name="marco_tocoferoles">Tocoferoles</string>
+    <string name="marco_volatiles">Volátiles y aromáticos</string>
+    <string name="text_intro_harina">¿Qué es la harina?</string>
+    <string name="titulo_que_es_aceite">¿Qué es el aceite de oliva?</string>
+
 </resources>

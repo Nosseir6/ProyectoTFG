@@ -200,6 +200,43 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewHarina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#8a6642">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:gravity="center_horizontal">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/harina"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/circle_bg" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pescado"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#fffacd"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
         <!-- Tarjeta: Preguntas -->
         <androidx.cardview.widget.CardView
             android:id="@+id/cardViewPreguntas"
