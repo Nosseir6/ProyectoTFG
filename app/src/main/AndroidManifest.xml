@@ -13,6 +13,26 @@
         android:theme="@style/Theme.ProyectoFinal"
         tools:targetApi="31">
         <activity
+            android:name=".BiologicosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuimicosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FisicosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PescadoActivity"
+            android:exported="false"
+            android:label="@string/title_activity_pescado"
+            android:theme="@style/Theme.ProyectoFinal.NoActionBar" />
+        <activity
+            android:name=".SaberMasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SimuladorActivity"
+            android:exported="false" />
+        <activity
             android:name=".YemaActivity"
             android:exported="false" />
         <activity
@@ -22,10 +42,6 @@
             android:name=".CascaraActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity2"
-            android:exported="false"
-            android:theme="@style/Theme.ProyectoFinal" />
-        <activity
             android:name=".HuevoActivity"
             android:exported="true">
             <intent-filter>
@@ -34,6 +50,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

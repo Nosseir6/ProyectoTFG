@@ -1,45 +1,143 @@
 <resources>
     <string name="app_name">ProyectoFinal</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
+    <string name="title_activity_pescado">PescadoActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
 
-    <string name="lorem_ipsum">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
-        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
-        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
-        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
-        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
-        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
-        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
-        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
-        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
-        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
-        bibendum, vel congue leo egestas.\n\n
-        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
-        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
-        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
-        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
-        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
-        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
-        est.\n\n
-        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
-        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
-        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
-        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
-        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
-        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
-        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
-        convallis.\n\n
-        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
-        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
-        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
-        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
-        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
-        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
-        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
-    </string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="recuento_total_de_aerobios_mes_filos">🔬 Recuento total de aerobios mesófilos</string>
+    <string name="Texto_aerobios">• Indica la carga microbiana general del pescado. \n• Niveles elevados pueden señalar contaminación o mala conservación.</string>
+    <string name="coliformes_y_e_coli">🦠 Coliformes y E. coli</string>
+    <string name="Texto_Coliformes">• Indicadores clave de contaminación fecal. \n❌ Su presencia puede implicar condiciones sanitarias deficientes durante la manipulación o procesamiento.</string>
+    <string name="salmonella_spp">🚫 Salmonella spp</string>
+    <string name="Texto_Salmonella">• No debe estar presente en 25g de muestra. \n❗ Su presencia implica un riesgo grave para la salud pública.</string>
+    <string name="listeria_monocytogenes">🧬 Listeria monocytogenes</string>
+    <string name="Texto_listeria">• Debe estar ausente en productos listos para el consumo. \n⚠️ Su detección requiere medidas estrictas de control y retiro del producto.</string>
+    <string name="Titulo_Cascara">Cascara</string>
+    <string name="Texto_cascara1">• Es la parte externa, protege al huevo.</string>
+    <string name="Texto_cascara2">• Hecha principalmente de carbonato cálcico (94%) y minerales como zinc, hierro y magnesio.</string>
+    <string name="Texto_cascara3">• Tiene de 7.000 a 15.000 poros que permiten el intercambio de gases.</string>
+    <string name="Texto_cascara4">• Su resistencia depende del calcio, la salud y la genética de la gallina.</string>
+    <string name="Texto_cascara5">• Está recubierta por la cutícula, una capa protectora que impide la entrada de microbios y evita la pérdida de agua. Se deteriora con el lavado.</string>
+    <string name="Texto_cascara6">• Por dentro tiene dos membranas testáceas que crean la cámara de aire, usada para evaluar la frescura.</string>
+    <string name="Texto_cascara7">• Para su venta, la cáscara debe estar limpia e intacta.</string>
+    <string name="Texto_cascara_volver">Volver</string>
+    <string name="Titulo_Clara">Clara (Albumen)</string>
+    <string name="Texto_clara1">• Es 88% agua y 12% proteínas, sin grasa.</string>
+    <string name="Texto_clara2">• Contiene proteínas importantes:</string>
+    <string name="Texto_clara3">-Ovoalbúmina (54%)</string>
+    <string name="Texto_clara4">-Ovomucoide (11%)</string>
+    <string name="Texto_clara5">-Ovotransferrina (12%)</string>
+    <string name="Texto_clara6">-Lisozima (3.5%), que destruye bacterias.</string>
+    <string name="Texto_clara7">• Con el tiempo, la clara se vuelve más líquida.</string>
+    <string name="Texto_clara8">• Las nubes blancas son normales y signo de frescura</string>
+    <string name="Texto_clara_volver">Volver</string>
+    <string name="aspecto_externo">✨ Aspecto externo:</string>
+    <string name="Texto_aspecto">• La piel debe estar brillante y con escamas bien adheridas.\n• Ojos salientes , claros y con pupila negra.\n• Ojos hundidos o turbios indican pérdida de frescura.</string>
+    <string name="color_de_las_branquias">🩸 Color de las branquias:</string>
+    <string name="Texto_color_branquias">• Deben ser de un rojo brillante .\n• Colores marrones o grises indican envejecimiento o mala conservación.</string>
+    <string name="olor">👃 Olor:</string>
+    <string name="Texto_olor">• Debe oler a mar , fresco.\n• Olor fuerte a amoníaco o putrefacción indica descomposición.</string>
+    <string name="textura">🤲 Textura:</string>
+    <string name="Texto_textura">• Al tacto debe ser firme y elástica .\n• Si está blanda o pegajosa, es señal de deterioro.</string>
+    <string name="color_de_la_carne">🎨 Color de la carne:</string>
+    <string name="Texto_color_carne">• El color varía según el tipo de pescado (blanco, rosado, rojizo).\n• Debe ser uniforme y sin manchas.\n• Cambios de color indican oxidación o mal estado.</string>
+    <string name="pescado_fresco">Pescado fresco</string>
+    <string name="Texto_pescado_fresco_fisico">Pescado fresco</string>
+    <string name="pescado_con_deficiencia">Pescado con deficiencia</string>
+    <string name="Texto_pescado_deficiencia_fisico">Pescado con deficiencia</string>
+    <string name="Titulo_infografia">Infografía Interactiva del Huevo</string>
+    <string name="boton_con_imagen_de_huevo_cascara">Botón con imagen de huevo</string>
+    <string name="boton_con_imagen_de_huevo_clara">Botón con imagen de huevo</string>
+    <string name="boton_con_imagen_de_huevo_yema">Botón con imagen de huevo</string>
+    <string name="texto_partes">¡Has click en cada parte para descubrir más sobre huevos!</string>
+    <string name="Titulo_pescado">🐟 APP DE CALIDAD DEL PESCADO</string>
+    <string name="Texto_Inicio_pescado">La calidad del pescado se refiere no solo a su apariencia y frescura, sino también a su seguridad. Esto incluye la ausencia de bacterias dañinas, parásitos o contaminantes químicos. La evaluación de la calidad puede realizarse mediante métodos sensoriales e instrumentales. Sin embargo, es fundamental que estos métodos estén alineados con la percepción del consumidor, quien es el juez final de la calidad. Las evaluaciones sensoriales deben realizarse en condiciones controladas para evitar influencias externas o prejuicios.\n\n🔬 Esta aplicación te permite conocer y evaluar la calidad del pescado a través de diversos parámetros físicos, químicos, sensoriales y biológicos.\n</string>
+    <string name="bases_vol_tiles_totales_bvt">💨 Bases Volátiles Totales (BVT)</string>
+    <string name="Texto_bvt">• Indican deterioro bacteriano o autolítico.\n• Miden trimetilamina, dimetilamina y amoníaco.\n❗ Útiles en etapas avanzadas de deterioro, no en los primeros días.</string>
+    <string name="amoniaco">🧪 Amoníaco</string>
+    <string name="Texto_amoniaco">• Proviene de la descomposición de proteínas.\n• Bueno para medir deterioro en calamar y productos con autólisis.\n❗ Mejor indicador que la BVT en ciertos casos.</string>
+    <string name="trimetilamina_tma">🐟 Trimetilamina (TMA)</string>
+    <string name="Texto_tma">• Genera el olor a pescado deteriorado.\n• Producida por acción bacteriana.\n• Indicador útil en pescados marinos demersales.</string>
+    <string name="ph">⚗️ pH</string>
+    <string name="Texto_ph">• El pH inicial del pescado fresco es bajo (6,0-6,5).\n• Aumenta con el deterioro por formación de compuestos básicos.\n• Útil pero puede variar por especie o condiciones.</string>
+    <string name="composicion_de_agua">💧 Composición de agua</string>
+    <string name="Texto_composicion_agua">• El contenido de agua en el pescado es alto, generalmente entre 70% y 80%.\n• Varía según la especie y el estado del pescado (fresco, congelado, seco, etc.).</string>
+    <string name="proteinas">🥩 Proteínas</string>
+    <string name="Texto_proteinas">• Representan entre el 15% y 25% del peso.\n• Fuente de proteínas de alta calidad con aminoácidos esenciales.</string>
+    <string name="lipidos">🧈 Lípidos</string>
+    <string name="Texto_lipidos">• Varían entre 1% y 15%.\n• Los pescados grasos como el salmón pueden tener hasta un 30%.\n• Ricos en ácidos grasos omega-3, buenos para el corazón.</string>
+    <string name="aminoacidos">🔗 Aminoácidos</string>
+    <string name="Texto_aminoacidos">• Ricos en aminoácidos esenciales, especialmente ramificados y de cadena larga.\n• Fundamentales para la síntesis de proteínas del cuerpo.</string>
+    <string name="minerales">🧂 Minerales</string>
+    <string name="Texto_minerales">• Fuente de calcio, fósforo, hierro, yodo y magnesio.\n• La concentración depende de la especie.</string>
+    <string name="Acidos_grados">🧬 Ácidos Grasos</string>
+    <string name="Texto_acidos_grasos">• Ricos en omega-3 (EPA y DHA).\n• Tienen efectos positivos sobre la salud cardiovascular.</string>
+    <string name="color">🎨 Color</string>
+    <string name="Texto_color">• Indicador de frescura: blanco, rosado o rojo según especie.\n• Branquias deben ser brillantes y de color rojo o rosado.</string>
+    <string name="Actividad_agua">💦 Actividad de Agua (Aw)</string>
+    <string name="Texto_actividad_agua">• Valores entre 0.98 y 1.00 en pescado fresco.\n• Alta susceptibilidad a proliferación bacteriana si no se conserva bien.</string>
+    <string name="tamaño_y_forma">📏 Tamaño y Forma</string>
+    <string name="Texto_tamaño_forma">• Afectan la calidad del pescado.\n• Los grandes pueden tener diferente textura y contenido graso que los pequeños.</string>
+    <string name="salinidad">🧂 Salinidad</string>
+    <string name="Texto_salinidad">• Influye en sabor, conservación y proteínas.\n• Afecta la capacidad de retención de agua del pescado.</string>
+    <string name="textura_quimicos">🧵 Textura</string>
+    <string name="Texto_texturas_quimicos">• Fresco: firme pero no duro.\n• La carne debe retraerse al presionar, sin dejar marcas.</string>
+    <string name="temperatura">🌡️ Temperatura</string>
+    <string name="Texto_temperaturas">• Se debe mantener entre 0°C y 4°C (refrigerado) o -18°C (congelado).\n• Crucial para evitar crecimiento bacteriano.</string>
+    <string name="pescado_fresco_quimicos">Pescado fresco</string>
+    <string name="Texto_pescado_fresco_quimicos">Pescado fresco</string>
+    <string name="pescado_con_deficiencia_quimicos">Pescado con deficiencia</string>
+    <string name="texto_pescado_con_deficiencia_quimicos">Pescado con deficiencia</string>
+    <string name="Texto_simulador_quimico">Simulador de deterioro químico</string>
+    <string name="Texto_dias_simulador">Día post-captura: 0</string>
+    <string name="Texto_parametro">Parámetro</string>
+    <string name="Texto_valor">Valor</string>
+    <string name="Texto_estado">Estado</string>
+    <string name="Texto_tabla_BVT">BVT</string>
+    <string name="Texto_tabla_amoniaco">Amoniaco</string>
+    <string name="Texto_tabla_tma">TMA</string>
+    <string name="Texto_tabla_ph">pH</string>
+    <string name="Titulo_curiosidades">Curiosidades sobre el huevo</string>
+    <string name="curiosidad_1">Curiosidad 1</string>
+    <string name="Texto_curiosidad1">La cáscara del huevo tiene miles de pequeños poros que permiten el intercambio de gases.</string>
+    <string name="curiosidad_2">Curiosidad 2</string>
+    <string name="Texto_curiosidad2">La yema de un huevo cambia de color dependiendo de la dieta de la gallina.</string>
+    <string name="curiosidad_3">Curiosidad 3</string>
+    <string name="Texto_curiosidad3">Los principales alimentos derivados del huevo son: La mayonesa, clara en polvo, yema en polvo, yema líquida y tortilla francesa</string>
+    <string name="curiosidad_4">Curiosidad 4</string>
+    <string name="Texto_curiosidad4">Los huevos marrones y blancos tienen el mismo valor nutricional; el color depende de la raza de la gallina.</string>
+    <string name="curiosidad_5">Curiosidad 5</string>
+    <string name="Texto_curiosidad5">El huevo aporta: Vitaminas: A, D, E, B2, B12, ácido fólico, niacina, biotina, etc. Y minerales: hierro, fósforo, zinc, selenio.. Siendo nutritivo y bajo en calorías</string>
+    <string name="curiosidad_6">Curiosidad 6</string>
+    <string name="Texto_curiosidad6">Los huevos pueden durar varias semanas si se almacenan en refrigeración constante.</string>
+    <string name="Titulo_simulador_huevo">Simulador de Frescura del Huevo</string>
+    <string name="Texto_fecha">Selecciona una fecha:</string>
+    <string name="fecha_de_puesta">Fecha de puesta</string>
+    <string name="fecha_de_consumo">Fecha de consumo</string>
+    <string name="calcular_frescura">Calcular Frescura</string>
+    <string name="imagen_del_estado_del_huevo">Imagen del estado del huevo</string>
+    <string name="Titulo_Yema">Yema (Vitelo)</string>
+    <string name="Texto_yema1">• Parte amarilla rica en nutrientes: vitaminas, minerales, grasas y antioxidantes.</string>
+    <string name="Texto_yema2">• Es 50% agua, el resto proteínas y lípidos.</string>
+    <string name="Texto_yema3">• Su color depende de la alimentación de la gallina.</string>
+    <string name="Texto_yema4">• Tiene propiedades funcionales: emulsionante, colorante, gelificante.</string>
+    <string name="Texto_yema5">• Contiene las chalazas, que la mantienen centrada.</string>
+    <string name="Texto_yema6">• Con el tiempo, pierde firmeza y sube su pH.</string>
+    <string name="Texto_volver_yema">Volver</string>
+    <string name="infografia_toolbar">Infografía</string>
+    <string name="simulador_toolbar">Simulador</string>
+    <string name="saber_mas_toolbar">Saber más</string>
+    <string name="drawer_inicio">Inicio</string>
+    <string name="drawer_parametros_fisicos">Parámetros Físicos</string>
+    <string name="drawer_parametros_quimicos">Parámetros Químicos</string>
+    <string name="drawer_parametros_biologicos">Parámetros Biológicos</string>
 </resources>
