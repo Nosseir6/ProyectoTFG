@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFF3E0">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#FFF3E0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Título principal -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Parámetros Químicos"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/rounded_box"
+            android:textColor="#2E7D32"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Sección: Cenizas -->
+        <LinearLayout
+            android:id="@+id/section_cenizas"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp">
+
+            <!-- Título desplegable -->
+            <TextView
+                android:id="@+id/title_cenizas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Cenizas ▼"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#33691E"
+                android:clickable="true"
+                android:focusable="true"
+                android:paddingBottom="4dp" />
+
+            <!-- Contenido expandible -->
+            <LinearLayout
+                android:id="@+id/content_cenizas"
+                android:visibility="gone"
+                android:orientation="vertical"
+                android:paddingLeft="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/cenizas_icon"
+                    android:scaleType="centerCrop"
+                    android:layout_marginBottom="20dp"
+                    app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.RoundedCornersMedium" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:text="@string/info_cenizas"
+                    android:lineSpacingExtra="4dp"
+                    android:paddingBottom="8dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Sección: Proteínas -->
+        <LinearLayout
+            android:id="@+id/section_proteinas"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp">
+
+            <!-- Título desplegable -->
+            <TextView
+                android:id="@+id/title_proteinas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Proteínas ▼"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#33691E"
+                android:clickable="true"
+                android:focusable="true"
+                android:paddingBottom="4dp" />
+
+            <!-- Contenido expandible -->
+            <LinearLayout
+                android:id="@+id/content_proteinas"
+                android:visibility="gone"
+                android:orientation="vertical"
+                android:paddingLeft="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/proteinas_icon"
+                    android:scaleType="centerCrop"
+                    android:layout_marginBottom="8dp"
+                    app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.RoundedCornersMedium" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:text="@string/info_proteinas"
+                    android:lineSpacingExtra="4dp"
+                    android:paddingBottom="8dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Sección: Gluten -->
+        <LinearLayout
+            android:id="@+id/section_gluten"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp">
+
+            <!-- Título desplegable -->
+            <TextView
+                android:id="@+id/title_gluten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Gluten ▼"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#33691E"
+                android:clickable="true"
+                android:focusable="true"
+                android:paddingBottom="4dp" />
+
+            <!-- Contenido expandible -->
+            <LinearLayout
+                android:id="@+id/content_gluten"
+                android:visibility="gone"
+                android:orientation="vertical"
+                android:paddingLeft="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/gluten_icon"
+                    android:scaleType="centerCrop"
+                    android:layout_marginBottom="8dp"
+                    app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.RoundedCornersMedium" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:text="@string/info_gluten"
+                    android:lineSpacingExtra="4dp"
+                    android:paddingBottom="8dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Sección: Almidón -->
+        <LinearLayout
+            android:id="@+id/section_almidon"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp">
+
+            <!-- Título desplegable -->
+            <TextView
+                android:id="@+id/title_almidon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Almidón ▼"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#33691E"
+                android:clickable="true"
+                android:focusable="true"
+                android:paddingBottom="4dp" />
+
+            <!-- Contenido expandible -->
+            <LinearLayout
+                android:id="@+id/content_almidon"
+                android:visibility="gone"
+                android:orientation="vertical"
+                android:paddingLeft="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/almidon_icon"
+                    android:scaleType="centerCrop"
+                    android:layout_marginBottom="8dp"
+                    app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.RoundedCornersMedium" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:text="@string/info_almidon"
+                    android:lineSpacingExtra="4dp"
+                    android:paddingBottom="8dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

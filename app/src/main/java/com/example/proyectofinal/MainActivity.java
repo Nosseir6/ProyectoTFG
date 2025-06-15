@@ -11,6 +11,8 @@ import com.example.proyectofinal.fragments.*;
 import com.google.android.material.navigation.NavigationView;
 
 import android.view.MenuItem;
+import android.widget.TextView;
+
 import androidx.appcompat.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
@@ -23,19 +25,23 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        // TextView title = toolbar.findViewById(R.id.toolbar_title);
+        setSupportActionBar(toolbar); // Asigna el toolbar como barra de acción
+        getSupportActionBar().setDisplayShowTitleEnabled(true);
 
         drawerLayout = findViewById(R.id.drawer_layout);
         NavigationView navView = findViewById(R.id.nav_view);
 
+        // abrir y cerrar el menú lateral con animación
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawerLayout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawerLayout.addDrawerListener(toggle);
         toggle.syncState();
 
+        // Cuando se selecciona un elemento del menú lateral
         navView.setNavigationItemSelectedListener(this::onNavigationItemSelected);
 
-        // Cargar fragmento inicial
+        //fragmento inicial
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
                     .replace(R.id.fragment_container, new FragmentInfo())
@@ -44,6 +50,8 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+
+    //navegar por la barra lateral
     private boolean onNavigationItemSelected(@NonNull MenuItem item) {
         int id = item.getItemId();
 
@@ -68,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
+    //sirve para que no se salga de la app al intentar cerrar el menu lateral
     @Override
     public void onBackPressed() {
         if (drawerLayout.isDrawerOpen(GravityCompat.START)) {

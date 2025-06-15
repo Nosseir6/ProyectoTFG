@@ -1,0 +1,49 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFF3E0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Imagen representativa del aceite de oliva -->
+        <ImageView
+            android:id="@+id/image_aceite"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/aceite_oliva"
+            android:scaleType="centerCrop"
+            android:contentDescription="Aceite de oliva"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/image_rounded_border"
+            android:padding="2dp"
+            android:clipToOutline="true" />
+
+
+        <!-- Título -->
+        <TextView
+            android:id="@+id/titulo_aceite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_que_es_aceite"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#4E342E"
+            android:layout_marginBottom="12dp"
+            android:textAlignment="center" />
+
+        <!-- Texto descriptivo -->
+        <TextView
+            android:id="@+id/texto_aceite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="El aceite de oliva es un aceite vegetal obtenido del fruto del olivo (Olea europaea), ampliamente utilizado en la gastronomía y apreciado por sus propiedades nutricionales.\n\nSu calidad depende del método de extracción y del grado de refinamiento."
+            android:textSize="18sp"
+            android:lineSpacingExtra="6dp"
+            android:textColor="#5D4037" />
+    </LinearLayout>
+</ScrollView>

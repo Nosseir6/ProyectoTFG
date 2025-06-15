@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mapa_quimico"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFF3E0">
+
+    <ImageView
+        android:id="@+id/nodo_aceite"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:contentDescription="@string/marco_aceite"
+        android:src="@drawable/mind_map_aceite"
+        android:layout_marginTop="120dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/nodo_acidos_grasos"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/bg_nodo"
+        android:gravity="center"
+        android:text="@string/marco_acidos"
+        android:textColor="#000"
+        android:textSize="14sp"
+        android:maxLines="2"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@id/nodo_aceite"
+        app:layout_constraintStart_toStartOf="@id/nodo_aceite"
+        app:layout_constraintEnd_toEndOf="@id/nodo_aceite" />
+
+    <TextView
+        android:id="@+id/nodo_polifenoles"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/bg_nodo"
+        android:gravity="center"
+        android:text="@string/marco_polifenoles"
+        android:textColor="#000"
+        android:textSize="14sp"
+        android:maxLines="2"
+        android:padding="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/nodo_aceite"
+        app:layout_constraintStart_toStartOf="@id/nodo_aceite"
+        app:layout_constraintEnd_toEndOf="@id/nodo_aceite" />
+
+    <TextView
+        android:id="@+id/nodo_tocoferoles"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/bg_nodo"
+        android:gravity="center"
+        android:text="@string/marco_tocoferoles"
+        android:textColor="#000"
+        android:textSize="14sp"
+        android:maxLines="2"
+        android:padding="8dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toStartOf="@id/nodo_aceite"
+        app:layout_constraintTop_toTopOf="@id/nodo_aceite"
+        app:layout_constraintBottom_toBottomOf="@id/nodo_aceite" />
+
+    <TextView
+        android:id="@+id/nodo_compuestos"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/bg_nodo"
+        android:gravity="center"
+        android:text="@string/marco_volatiles"
+        android:textColor="#000"
+        android:textSize="14sp"
+        android:maxLines="3"
+        android:padding="8dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintStart_toEndOf="@id/nodo_aceite"
+        app:layout_constraintTop_toTopOf="@id/nodo_aceite"
+        app:layout_constraintBottom_toBottomOf="@id/nodo_aceite" />
+
+    <TextView
+        android:id="@+id/info_box"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:minHeight="160dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="32dp"
+        android:padding="16dp"
+        android:background="@drawable/bg_info_box"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:visibility="invisible"
+        app:layout_constraintTop_toBottomOf="@id/nodo_polifenoles"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

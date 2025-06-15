@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFF3E0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#FFF3E0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Título principal -->
+        <TextView
+            android:id="@+id/tv_aplicaciones_dieteticas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/criterios_analiticos"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="12dp"
+            android:background="@drawable/rounded_box"
+            android:textColor="#A15531"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Sección: Grado de acidez -->
+        <LinearLayout
+            android:id="@+id/section_acidez"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:id="@+id/title_acidez"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#664fa3"
+                android:text="@string/titulo_acidez"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:paddingBottom="4dp"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <LinearLayout
+                android:id="@+id/content_acidez"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:paddingLeft="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/contenido_acidez"
+                    android:textSize="18sp"
+                    android:paddingBottom="8dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Sección: Índice de peróxidos -->
+        <LinearLayout
+            android:id="@+id/section_peroxidos"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:id="@+id/title_peroxidos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#664fa3"
+                android:text="@string/titulo_peroxidos"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:paddingBottom="4dp"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <LinearLayout
+                android:id="@+id/content_peroxidos"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:paddingLeft="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/contenido_peroxidos"
+                    android:textSize="18sp"
+                    android:paddingBottom="8dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Sección: ¿Qué aceite? -->
+        <LinearLayout
+            android:id="@+id/section_que_aceite"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:id="@+id/title_que_aceite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#664fa3"
+                android:text="@string/titulo_que_aceite"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:paddingBottom="4dp"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <LinearLayout
+                android:id="@+id/content_que_aceite"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:paddingLeft="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/contenido_que_aceite"
+                    android:textSize="18sp"
+                    android:paddingBottom="8dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Sección: ¿Cómo usarlo? -->
+        <LinearLayout
+            android:id="@+id/section_como_usarlo"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/title_como_usarlo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#664fa3"
+                android:text="@string/titulo_como_usarlo"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:paddingBottom="4dp"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <LinearLayout
+                android:id="@+id/content_como_usarlo"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:paddingLeft="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/contenido_como_usarlo"
+                    android:textSize="18sp"
+                    android:paddingBottom="8dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

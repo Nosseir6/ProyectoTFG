@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title="Inicio"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:id="@+id/nav_que_es_aceite"
+        android:title="¿Qué es?"
+        android:icon="@drawable/interrogacion"/>
+    <item
+        android:id="@+id/nav_composicion_aceite"
+        android:title="Composición Química"
+        android:icon="@drawable/atomo"/>
+    <item
+        android:id="@+id/nav_beneficios_aceite"
+        android:title="Beneficios para la Salud"
+        android:icon="@drawable/salud"/>
+    <item
+        android:id="@+id/nav_aplicaciones_aceite"
+        android:title="Aplicaciones Dietéticas"
+        android:icon="@drawable/dietetica"/>
+</menu>

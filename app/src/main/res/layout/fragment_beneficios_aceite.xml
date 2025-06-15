@@ -9,7 +9,7 @@
     android:padding="16dp">
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/card_humedad"
+        android:id="@+id/card_salud"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -23,13 +23,14 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="Humedad"
+            android:text="Salud cardiovascular"
+            android:textColor="#000000"
             android:textSize="20sp"
-            android:textColor="#000000"/>
+            android:padding="16dp" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/card_cenizas"
+        android:id="@+id/card_antiinflamatorio"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -43,13 +44,14 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="Cenizas"
+            android:text="Propiedades antiinflamatorias"
+            android:textColor="#000000"
             android:textSize="20sp"
-            android:textColor="#000000"/>
+            android:padding="16dp" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/card_proteinas"
+        android:id="@+id/card_cerebro"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -63,33 +65,14 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="Proteínas"
+            android:text="Protección cerebral"
+            android:textColor="#000000"
             android:textSize="20sp"
-            android:textColor="#000000"/>
+            android:padding="16dp" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/card_gluten"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        card_view:cardCornerRadius="12dp"
-        card_view:cardElevation="6dp"
-        android:layout_marginBottom="12dp"
-        android:clickable="true"
-        android:focusable="true">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:text="Gluten"
-            android:textSize="20sp"
-            android:textColor="#000000"/>
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/card_almidon"
+        android:id="@+id/card_metabolismo"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -102,9 +85,10 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="Almidón"
+            android:text="Regulación del metabolismo"
+            android:textColor="#000000"
             android:textSize="20sp"
-            android:textColor="#000000"/>
+            android:padding="16dp" />
     </androidx.cardview.widget.CardView>
 
 </LinearLayout>
