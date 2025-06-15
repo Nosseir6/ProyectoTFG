@@ -90,5 +90,6 @@
     <string name="ph">2. pH</string>
     <string name="ph_description"><![CDATA[• Fresca: pH 6.6–6.8 ✅\n• <6.5: leche fermentada ❌\n• >7.0: leche contaminada ❌]]></string>
     <string name="ph_quesiton">👉 ¿Qué pasa si sube o baja el pH?\nLa leche se vuelve turbia o burbujeante.</string>
+    <string name="leches_del_mundo">Leches del Mundo</string>
 
 </resources>

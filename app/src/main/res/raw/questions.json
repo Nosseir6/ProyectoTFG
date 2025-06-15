@@ -1,0 +1,17 @@
+[
+  {
+    "questionText": "¿Cuál es el componente principal de la leche?",
+    "options": ["Proteínas", "Grasa", "Agua", "Calcio"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "questionText": "¿Qué tipo de carne tiene más grasa generalmente?",
+    "options": ["Pollo", "Cerdo", "Ternera", "Pavo"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "questionText": "¿Qué vitamina es abundante en el huevo?",
+    "options": ["Vitamina A", "Vitamina D", "Vitamina C", "Vitamina K"],
+    "correctAnswerIndex": 1
+  }
+]
