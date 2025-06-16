@@ -34,6 +34,7 @@
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
         android:background="@android:color/white"
-        app:menu="@menu/menu_aceite" />
+        app:menu="@menu/menu_aceite"
+        app:headerLayout="@layout/nav_header_oil"/>
 
 </androidx.drawerlayout.widget.DrawerLayout>

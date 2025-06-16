@@ -42,6 +42,7 @@
         android:fitsSystemWindows="true"
         android:background="@android:color/white"
         app:menu="@menu/menu_lateral"
+        app:headerLayout="@layout/nav_header_flour"
         app:itemTextAppearance="@style/NavMenuTextStyle"
         app:itemBackground="@drawable/nav_item_background" />
 

@@ -3,17 +3,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="120dp"
         android:gravity="bottom"
         android:orientation="vertical"
         android:padding="16dp"
-        android:background="@color/red">
+        android:background="#F5DEB3"> <!-- Color trigo (wheat) -->
 
         <TextView
-            android:text="Carnes del mundo"
-            android:textColor="@android:color/white"
+            android:text="Harinas del mundo"
+            android:textColor="@android:color/black"
             android:textStyle="bold"
             android:textSize="18sp"
             android:layout_width="wrap_content"
