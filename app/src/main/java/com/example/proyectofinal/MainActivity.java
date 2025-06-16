@@ -43,7 +43,6 @@ public class MainActivity extends AppCompatActivity {
         cardViewMilk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "Has pulsado en Leche", Toast.LENGTH_SHORT).show();
                 // Puedes abrir otra actividad si quieres:
                 Intent intent = new Intent(MainActivity.this, MilkActivity.class);
                  startActivity(intent);
@@ -53,7 +52,6 @@ public class MainActivity extends AppCompatActivity {
         cardViewMeat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Has pulsado en la Carne", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(MainActivity.this, MeatActivity.class);
                 startActivity(intent);
             }
@@ -63,7 +61,6 @@ public class MainActivity extends AppCompatActivity {
         cardViewAceite.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Has pulsado en el Aceite", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(MainActivity.this, ActivityAceite.class);
                 startActivity(intent);
             }
@@ -72,7 +69,6 @@ public class MainActivity extends AppCompatActivity {
         cardViewHarina.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Has pulsado en la Harina", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(MainActivity.this, ActivityHarina.class);
                 startActivity(intent);
             }
@@ -81,7 +77,6 @@ public class MainActivity extends AppCompatActivity {
         cardViewHuevo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Has pulsado en el Aceite", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(MainActivity.this, HuevoActivity.class);
                 startActivity(intent);
             }
@@ -90,7 +85,6 @@ public class MainActivity extends AppCompatActivity {
         cardViewPescado.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Has pulsado en la Harina", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(MainActivity.this, PescadoActivity.class);
                 startActivity(intent);
             }
