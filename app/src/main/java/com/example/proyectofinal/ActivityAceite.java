@@ -1,5 +1,6 @@
 package com.example.proyectofinal;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -64,6 +65,9 @@ public class ActivityAceite extends AppCompatActivity implements NavigationView.
             selectedFragment = new FragmentAplicacionesAceite();
         }else if (id == R.id.nav_que_es_aceite) {
             selectedFragment = new FragmentInfoAceite();
+        }else if (id == R.id.nav_out) {
+            startActivity(new Intent(this, com.example.proyectofinal.MainActivity.class));
+            finish();
         }
 
 

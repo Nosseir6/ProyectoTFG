@@ -25,7 +25,7 @@ public class FragmentParametros extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_parametros, container, false);
+        return inflater.inflate(R.layout.fragment_parametros_isma, container, false);
     }
 
     @Override

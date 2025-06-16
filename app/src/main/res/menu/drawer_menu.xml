@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
-        <item android:id="@+id/nav_intro" android:title="Introducción" android:icon="@drawable/ic_info"/>
+        <item android:id="@+id/nav_intro" android:title="Introducción" android:icon="@drawable/ic_home"/>
         <item android:id="@+id/nav_parametros" android:title="Parámetros" android:icon="@drawable/ic_parameter"/>
         <item android:id="@+id/nav_simulador" android:title="Simulador" android:icon="@drawable/ic_simulador"/>
         <item android:id="@+id/nav_comparador" android:title="Comparador de leches" android:icon="@drawable/ic_chart"/>
+        <item android:id="@+id/nav_out" android:title="Menu principal" android:icon="@drawable/ic_out"/>
     </group>
 </menu>

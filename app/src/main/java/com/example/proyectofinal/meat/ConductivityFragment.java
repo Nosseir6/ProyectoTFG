@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import com.example.proyectofinal.R;
@@ -28,6 +29,11 @@ public class ConductivityFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater,
                              @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
+        // Cambiar título del Toolbar
+        if (getActivity() != null) {
+            ((AppCompatActivity) getActivity()).getSupportActionBar().setTitle("Conductividad ");
+        }
+
         View view = inflater.inflate(R.layout.fragment_carne_conductivity, container, false);
 
         ceSeekBar = view.findViewById(R.id.seekBarCE);

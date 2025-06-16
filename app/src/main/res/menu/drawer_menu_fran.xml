@@ -19,5 +19,7 @@
         android:title="@string/drawer_parametros_biologicos"
         android:icon="@drawable/icono_biologico"
         />
+    <item android:id="@+id/nav_out" android:title="Menu principal" android:icon="@drawable/ic_out"/>
+
 </menu>
 

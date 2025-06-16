@@ -66,9 +66,20 @@
     <string name="analisis_carne">Introducción al análisis de la carne</string>
     <string name="analisis_carne_description">El análisis físico-químico de la carne permite evaluar su calidad, frescura, contenido nutricional y seguridad para el consumo humano. Este análisis incluye parámetros como el pH, la capacidad de retención de agua (CRA), la conductividad eléctrica, la presencia de contaminantes y microorganismos, entre otros.</string>
     <string name="comparador_de_leches">Comparador de Leches</string>
-    <string name="secertos_alimentos_text">Descubre los secretos de los alimentos con nuestra app interactiva.</string>
-    <string name="leche_description">La leche es un alimento esencial, rico en nutrientes.\n\nCon esta aplicación aprenderás cómo se analiza y por qué es tan importante en nuestra alimentación.</string>
-    <string name="parametros_leche">Parámetros Físico-Químicos de la Leche</string>
+    <string name="consejo_carne">🧪 Consejo: una carne de buena calidad tiene un pH cercano a 5.6-5.8, no presenta olores fuertes y mantiene su color característico según la especie. Evita carnes con apariencia viscosa o coloración anormal.</string>
+    <string name="carne_intro">La carne no solo es una fuente de proteínas: también es un indicador del estado sanitario del animal y del proceso de conservación. Aprender a analizarla es clave para garantizar su calidad y seguridad.</string>
+
+    <string name="secertos_alimentos_text">Bienvenido a tu guía interactiva sobre los alimentos: explora, aprende y descubre cómo se analiza lo que comemos.</string>
+    <string name="leche_description">
+La leche es uno de los alimentos más completos que existen. Rica en calcio, proteínas, vitaminas y minerales, es clave en la nutrición humana desde los primeros días de vida.\n\n
+En esta app descubrirás:\n
+• Cómo se analiza la calidad de la leche.\n
+• Qué parámetros indican si es apta para el consumo.\n
+• Qué factores influyen en su sabor, textura y valor nutritivo.\n
+• Simuladores para experimentar con el pH, temperatura, acidez y más.\n
+• Consejos prácticos y curiosidades científicas.\n\n
+¡Prepárate para ver la leche con otros ojos!
+</string>    <string name="parametros_leche">Parámetros Físico-Químicos de la Leche</string>
     <string name="leche_de_b_fala">🐃 Leche de Búfala</string>
     <string name="bufala_description">• Grasa: Muy alta\n• Proteínas: Muy alta\n• Lactosa: Baja\n• Densidad: 1.040+\n• Digestibilidad: Muy densa</string>
     <string name="leche_de_cabra">🐐 Leche de Cabra</string>

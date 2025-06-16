@@ -1,5 +1,6 @@
 package com.example.proyectofinal;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -72,6 +73,10 @@ public class ActivityHarina extends AppCompatActivity {
             getSupportFragmentManager().beginTransaction()
                     .replace(R.id.fragment_container, new FragmentAplicacion())
                     .commit();
+        }
+        else if (id == R.id.nav_out) {
+            startActivity(new Intent(this, com.example.proyectofinal.MainActivity.class));
+            finish();
         }
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;

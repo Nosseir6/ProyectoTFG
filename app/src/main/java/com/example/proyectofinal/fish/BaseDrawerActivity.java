@@ -49,6 +49,9 @@ public abstract class BaseDrawerActivity extends AppCompatActivity
                 startActivity(new Intent(this, BiologicosActivity.class));
             } else if (id == R.id.nav_inicio && !(this instanceof PescadoActivity)) {
                 startActivity(new Intent(this, PescadoActivity.class));
+            }else if (id == R.id.nav_out) {
+                startActivity(new Intent(this, com.example.proyectofinal.MainActivity.class));
+                finish();
             }
 
             drawerLayout.closeDrawer(GravityCompat.START);

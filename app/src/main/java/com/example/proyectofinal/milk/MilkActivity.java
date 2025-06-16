@@ -1,5 +1,6 @@
 package com.example.proyectofinal.milk;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -51,15 +52,10 @@ public class MilkActivity extends AppCompatActivity {
                 selectedFragment = new SimuladorFragment();
             } else if (id == R.id.nav_comparador) {
                 selectedFragment = new ComparadorFragment();
-            } /*else if (id == R.id.nav_aplicaciones) {
-                selectedFragment = new AplicacionesFragment();
-            } else if (id == R.id.nav_mapa) {
-                selectedFragment = new MapaFragment();
-            } else if (id == R.id.nav_curiosidades) {
-                selectedFragment = new CuriosidadesFragment();
-            } else if (id == R.id.nav_recetas) {
-                selectedFragment = new RecetasFragment();
-            }*/
+            } else if(id == R.id.nav_out){
+                startActivity(new Intent(this, com.example.proyectofinal.MainActivity.class));
+                finish(); // Opcional: cierra la MilkActivity para que no quede en el back stack
+            }
 
             if (selectedFragment != null) {
                 getSupportFragmentManager().beginTransaction()

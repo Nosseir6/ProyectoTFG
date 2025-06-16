@@ -1,27 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFF8F6"
     android:padding="16dp">
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
 
-        <TextView
-            android:text="@string/analisis_carne"
-            android:textSize="22sp"
-            android:textStyle="bold"
-            android:textColor="#B71C1C"
-            android:layout_marginBottom="12dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-
-        <TextView
-            android:text="@string/analisis_carne_description"
-            android:textSize="16sp"
-            android:textColor="#444444"
+        <!-- Imagen ilustrativa -->
+        <ImageView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="200dp"
+            android:src="@drawable/carne_banner"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/analisis_carne"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/rounded_corners" />
+
+        <!-- Tarjeta 1: Introducción -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="16dp"
+            android:backgroundTint="#FBE9E7"> <!-- rosa claro -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="@string/carne_intro"
+                android:textSize="17sp"
+                android:textColor="#BF360C" /> <!-- rojo oscuro tipo carne -->
+        </androidx.cardview.widget.CardView>
+
+        <!-- Tarjeta 2: Análisis -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="16dp"
+            android:backgroundTint="#EFEBE9"> <!-- marrón muy claro -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="@string/analisis_carne_description"
+                android:textSize="17sp"
+                android:textColor="#4E342E" /> <!-- marrón oscuro -->
+        </androidx.cardview.widget.CardView>
+
+        <!-- Tarjeta 3: Consejo -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="16dp"
+            android:backgroundTint="#FFEBEE"> <!-- rosa pálido -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="@string/consejo_carne"
+                android:textSize="17sp"
+                android:textColor="#C62828" /> <!-- rojo carne -->
+        </androidx.cardview.widget.CardView>
+
     </LinearLayout>
 </ScrollView>

@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import com.example.proyectofinal.R;
@@ -47,6 +48,11 @@ public class SimuladorFragment extends Fragment {
                              @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_simulador, container, false);
+
+        // Cambiar título del Toolbar
+        if (getActivity() != null) {
+            ((AppCompatActivity) getActivity()).getSupportActionBar().setTitle("Simulador");
+        }
 
         // pH
         phSeekBar = view.findViewById(R.id.phSeekBar);

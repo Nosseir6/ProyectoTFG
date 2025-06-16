@@ -1,5 +1,6 @@
 package com.example.proyectofinal.meat;
 
+import android.content.Intent;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -55,6 +56,9 @@ public class MeatActivity extends AppCompatActivity {
                 selectedFragment = new ContaminantesFragment();
             } else if (id == R.id.nav_consejos) {
                 selectedFragment = new ConsejosConsumidorFragment();
+            } else if (id == R.id.nav_out) {
+                startActivity(new Intent(this, com.example.proyectofinal.MainActivity.class));
+                finish(); // Opcional: cierra la MilkActivity para que no quede en el back stack
             }
 
 

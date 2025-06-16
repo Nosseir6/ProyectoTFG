@@ -12,6 +12,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.example.proyectofinal.MainActivity;
 import com.example.proyectofinal.egg.CascaraActivity;
 import com.example.proyectofinal.egg.ClaraActivity;
 import com.example.proyectofinal.R;
@@ -25,16 +26,9 @@ public class HuevoActivity extends AppCompatActivity {
     ImageButton botonClara;
     ImageButton botonYema;
     Button btnInfografia;
-
     Button btnSaberMas;
-
     Button btnSimulador;
-
-    Button botonpescado;
-
-
-
-
+    Button btnMenuPrincipal;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,8 +47,7 @@ public class HuevoActivity extends AppCompatActivity {
         btnInfografia = findViewById(R.id.btnInfografia);
         btnSimulador = findViewById(R.id.btnSimulador);
         btnSaberMas = findViewById(R.id.btnSaberMas);
-        botonpescado = findViewById(R.id.BtnPescado);
-
+        btnMenuPrincipal = findViewById(R.id.btn_menu_principal_huevo);
 
 
         botonCascara.setOnClickListener(new View.OnClickListener() {
@@ -64,6 +57,7 @@ public class HuevoActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
 
         botonClara.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -105,11 +99,12 @@ public class HuevoActivity extends AppCompatActivity {
             }
         });
 
-        botonpescado.setOnClickListener(new View.OnClickListener() {
+        btnMenuPrincipal.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(HuevoActivity.this, PescadoActivity.class);
+            public void onClick(View view) {
+                Intent intent = new Intent(HuevoActivity.this, MainActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
     }

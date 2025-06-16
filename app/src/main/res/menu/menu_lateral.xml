@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-        android:id="@+id/nav_home"
-        android:title="Inicio"
-        android:icon="@drawable/ic_home"/>
     <item android:id="@+id/nav_que_es" android:title="¿Qué es?"
         android:icon="@drawable/interrogacion"/>
     <item android:id="@+id/nav_composicion" android:title="Composición"
         android:icon="@drawable/atomo"/>
     <item android:id="@+id/nav_parametros" android:title="Parámetros fisicoquímicos"
         android:icon="@drawable/parametros"/>
-    <item android:id="@+id/nav_aplicacion" android:title="Aplicación dietética"
+    <item android:id="@+id/nav_aplicacion" android:title="Aplicaciónes dietética"
         android:icon="@drawable/dietetica"/>
+    <item android:id="@+id/nav_out" android:title="Menu principal" android:icon="@drawable/ic_out"/>
+
 </menu>

@@ -7,6 +7,7 @@
     <item android:id="@+id/nav_clasificacion" android:title="Clasificación" android:icon="@drawable/ic_clasificacion"/>
     <item android:id="@+id/nav_contaminantes" android:title="Contaminantes" android:icon="@drawable/ic_alerta"/>
     <item android:id="@+id/nav_consejos" android:title="Consejos al consumidor" android:icon="@drawable/ic_consejo"/>
+    <item android:id="@+id/nav_out" android:title="Menu principal" android:icon="@drawable/ic_out"/>
 </menu>
 
 
