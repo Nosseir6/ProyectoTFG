@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_inicio"
+        android:title="@string/drawer_inicio"
+        android:icon="@drawable/icono_inicio"
+        />
+
+    <item android:id="@+id/nav_fisicos"
+        android:title="@string/drawer_parametros_fisicos"
+        android:icon="@drawable/icono_fisico"
+        />
+
+    <item android:id="@+id/nav_quimicos"
+        android:title="@string/drawer_parametros_quimicos"
+        android:icon="@drawable/icono_quimico"
+        />
+
+    <item android:id="@+id/nav_biologicos"
+        android:title="@string/drawer_parametros_biologicos"
+        android:icon="@drawable/icono_biologico"
+        />
+</menu>
+

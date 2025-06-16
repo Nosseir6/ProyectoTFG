@@ -9,6 +9,8 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
+import com.example.proyectofinal.egg.HuevoActivity;
+import com.example.proyectofinal.fish.PescadoActivity;
 import com.example.proyectofinal.meat.MeatActivity;
 import com.example.proyectofinal.milk.MilkActivity;
 
@@ -76,8 +78,23 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        cardViewHuevo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(MainActivity.this, "Has pulsado en el Aceite", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, HuevoActivity.class);
+                startActivity(intent);
+            }
+        });
 
-
+        cardViewPescado.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(MainActivity.this, "Has pulsado en la Harina", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, PescadoActivity.class);
+                startActivity(intent);
+            }
+        });
 
         // Botón de salida
         buttonExit.setOnClickListener(new View.OnClickListener() {

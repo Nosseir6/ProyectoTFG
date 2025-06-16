@@ -25,6 +25,10 @@
             android:exported="false"/>
         <activity android:name=".ActivityHarina"
             android:exported="false"/>
+        <activity android:name=".egg.HuevoActivity"
+            android:exported="false"/>
+        <activity android:name=".fish.PescadoActivity"
+            android:exported="false"/>
         <activity
             android:name=".MainActivity"
             android:exported="true" >
